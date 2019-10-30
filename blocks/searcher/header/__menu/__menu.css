@@ -1,0 +1,10 @@
+@import url('./_active/_active.css');
+@import url('./_inactive/_inactive.css');
+
+.header__menu {
+    width: 189px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 101px;
+}

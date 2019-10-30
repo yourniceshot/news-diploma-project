@@ -2,11 +2,73 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Webpack</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="краткое описание страницы">
+    <meta name="author" lang="ru" content="Анастасия Медникова">
+    <title>NewsAnalyzer</title>
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+    <link rel="stylesheet" href="../blocks/page/normalize.css">
+    <link rel="shortcut icon" href="./images/favicon.png">
 </head>
 <body>
-    <h1>Hello</h1>
+    <div class="page">
+        <div class="searcher">
+            <header class="header">
+                <p class="header__logo">NewsAnalyzer</p>
+                <div class="header__menu">
+                    <a href="./index.html" class="header__menu_active">Главная</a>
+                    <a href="./about.html" class="header__menu_inactive">О проекте</a>
+                </div>
+            </header>
+            <hr class="searcher__line" size="1px" width="1440px" color="grey">
+            <hr class="searcher__bold-line" size="3px" width="68px" color="white">
+            <h1 class="searcher__title">Что в мире творится?</h1>
+            <h3 class="searcher__subtitle">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за прошедшую неделю.</h3>
+            <form class="searcher__form" name="search">
+                <input style="padding-left: 24px" type="text" name="request" class="form-input" placeholder="Введите тему новости">
+                <button class="form-button">Искать</button>
+            </form>
+        </div>
+        <div class="search-process">
+            <i class="search-process__circle-preloader"></i>
+            <h4 class="search-process__title">Идет поиск новостей...</h4>
+        </div>
+        <div class="no-results">
+            <img class="no-results__image" src="<%=require('./images/ill.svg')%>" alt="sad magnifying glass">
+            <h3 class="no-results__title">Ничего не найдено</h3>
+            <h4 class="no-results__subtitle">К сожалению, по вашему запросу ничего не найдено.</h4>
+        </div>
+        <div class="cards-container">
+            <h2 class="cards-container__title">Результаты поиска</h2>
+            <a href="./analytics.html" class="cards-container__link">Посмотреть аналитику</a>
+            <div class="cards-container__card">
+                <img class="card-image">
+                <span class="card-date"></span>
+                <h4 class="card-title"></h4>
+                <p class="card-article"></p>
+                <div class="card-source"></div>
+            </div>
+            <button class="cards-container__button">Показать еще</button>
+        </div>
+        <div class="about-author">
+            <img class="about-author__photo">
+            <h2 class="about-author__title">Об авторе</h2>
+            <p class="about-author__article"></p>
+        </div>
+        <footer class="footer">
+            <div class="footer__copyright"></div>
+            <div class="footer__menu">
+                <a href="./index.html" class="footer__menu_item">Главная</a>
+                <a href="./about.html" class="footer__menu_item">О проекте</a>
+                <a href="https://praktikum.yandex.ru" class="footer__menu_item">Яндекс.Практикум</a>
+            </div>
+            <div class="footer__icons">
+                    <a href="https://github.com/yourniceshot" class="footer__link"><img src="<%=require('./images/github.png')%>" alt="github icon" class="footer__icon"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100004300862534" class="footer__link"><img src="<%=require('./images/fb.png')%>" alt="facebook icon" class="footer__icon"></a>
+            </div>
+        </footer>
+    </div> 
     <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
 </body>
 </html>

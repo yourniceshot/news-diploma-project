@@ -1,0 +1,20 @@
+.form-button {
+    width: 168px;
+    height: 64px;
+    background-color: #2F71E5;
+    border-radius: 100px;
+    border: none;
+    color: white;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    background-color: #347EFF;
+}
+
+.form-button:active {
+    background-color: #2A65CC;
+}

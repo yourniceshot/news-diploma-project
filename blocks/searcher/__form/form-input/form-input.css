@@ -1,0 +1,12 @@
+.form-input {
+    width: 584px;
+    height: 60px;
+    border-radius: 100px;
+    border: none;
+    position: absolute;
+}
+
+::-webkit-input-placeholder {color:#B6BCBF;}
+::-moz-placeholder          {color:#B6BCBF;}
+:-moz-placeholder           {color:#B6BCBF;}
+:-ms-input-placeholder      {color:#B6BCBF;}

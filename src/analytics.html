@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="краткое описание страницы">
+    <meta name="author" lang="ru" content="Анастасия Медникова">
+    <title>Analytics - NewsAnalyzer</title>
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+    <link rel="shortcut icon" href="./images/favicon.png">
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <p class="header__logo">NewsAnalyzer</p>
+            <div class="header__menu">
+                <a href="./index.html" class="header__menu_inactive">Главная</a>
+                <a href="./about.html" class="header__menu_inactive">О проекте</a>
+            </div>
+        </header>
+        <div class="main">
+            <a href="#" class="main__path_link">Главная</a>
+            <span class="main__path_place">/ Аналитика</span>
+            <h2 class="main__title">Вы спросили:</h2>
+            <span class="main__subtitle">Новостей за неделю:</span>
+            <span class="main__amount"></span>
+            <span class="main__subtitle">Упоминаний в заголовках</span>
+            <span class="main__amount"></span>
+        </div>
+        <div class="analytics">
+            <h2 class="analytics__title"></h2>
+            <div class="analytics__diagramm"></div>
+        </div>
+        <footer class="footer">
+                <div class="footer__copyright"></div>
+                <div class="footer__menu">
+                    <a href="./index.html" class="footer__menu_item">Главная</a>
+                    <a href="./about.html" class="footer__menu_item">О проекте</a>
+                    <a href="https://praktikum.yandex.ru" class="footer__menu_item">Яндекс.Практикум</a>
+                </div>
+                <div class="footer__icons">
+                        <a href="https://github.com/yourniceshot" class="footer__link"><img src="<%=require('./images/github.png')%>" alt="github icon" class="footer__icon"></a>
+                        <a href="https://www.facebook.com/profile.php?id=100004300862534" class="footer__link"><img src="<%=require('./images/fb.png')%>" alt="facebook icon" class="footer__icon"></a>
+                </div>
+            </footer>
+    </div>
+    <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+</body>
+</html>

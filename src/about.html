@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="краткое описание страницы">
+    <meta name="author" lang="ru" content="Анастасия Медникова">
+    <title>About - NewsAnalyzer</title>
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+    <link rel="shortcut icon" href="./images/favicon.png">
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <p class="header__logo">NewsAnalyzer</p>
+            <div class="header__menu">
+                <a href="./index.html" class="header__menu_inactive">Главная</a>
+                <a href="./about.html" class="header__menu_active">О проекте</a>
+            </div>
+        </header>
+    <div class="client-article">
+        <h2 class="client-article__title"></h2>
+        <div class="client-article__article"></div>
+    </div>
+    <div class="technologies">
+        <h2 class="technologies__title">Используемые технологии</h2>
+        <div class="technologies__grid">
+            <span class="technologies__grid_elem">HTML</span> 
+            <span class="technologies__grid_elem">CSS</span> 
+            <span class="technologies__grid_elem">Java Script</span> 
+            <span class="technologies__grid_elem">Webpack</span> 
+            <img class="technologies__grid_elem" src="<%=require('./images/html.svg')%>" alt="html icon">
+            <img class="technologies__grid_elem" src="<%=require('./images/css.svg')%>" alt="css icon"> 
+            <img class="technologies__grid_elem" src="<%=require('./images/js.svg')%>" alt="js icon">
+            <img class="technologies__grid_elem" src="<%=require('./images/webpack.svg')%>" alt="webpack icon">
+        </div>
+    </div>
+    <div class="about-author">
+        <img class="about-author__photo">
+        <h2 class="about-author__title">Об авторе</h2>
+        <p class="about-author__article"></p>
+    </div>
+    <div class="commits">
+        <h2 class="commits__title">История коммитов из GitHub</h2>
+        <a href="#" class="commits__link">Открыть в  Github &gt;</a>
+        <a href="#" class="commits-slider">
+            <div class="slider-card">
+                <span class="slider-card__date"></span>
+                <img class="slider-card__photo">
+                <span class="slider-card__name"></span>
+                <span class="slider-card__email"></span>
+                <p class="slider-card__article"></p>
+            </div>
+        </a>
+    </div>
+    <footer class="footer">
+            <div class="footer__copyright"></div>
+            <div class="footer__menu">
+                <a href="./index.html" class="footer__menu_item">Главная</a>
+                <a href="./about.html" class="footer__menu_item">О проекте</a>
+                <a href="https://praktikum.yandex.ru" class="footer__menu_item">Яндекс.Практикум</a>
+            </div>
+            <div class="footer__icons">
+                    <a href="https://github.com/yourniceshot" class="footer__link"><img src="<%=require('./images/github.png')%>" alt="github icon" class="footer__icon"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100004300862534" class="footer__link"><img src="<%=require('./images/fb.png')%>" alt="facebook icon" class="footer__icon"></a>
+            </div>
+        </footer>
+    </div>
+    <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+</body>
+</html>

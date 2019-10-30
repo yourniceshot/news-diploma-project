@@ -1,0 +1,8 @@
+.header__menu_active {
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: normal;
+}

@@ -1,0 +1,16 @@
+@import url('./header/header.css');
+@import url('./__line/__line.css');
+@import url('./__title/__title.css');
+@import url('./__subtitle/__subtitle.css');
+@import url('./__form/__form.css');
+@import url('./__bold-line/__bold-line.css');
+
+.searcher {
+    height: 576px;
+    background-image: url("<%=require('../../../../src/images/georgia-de-lotz--UsJoNxLaNo-unsplash.png");
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 0;
+}
