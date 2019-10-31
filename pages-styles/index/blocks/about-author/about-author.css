@@ -1,0 +1,8 @@
+@import url('./__photo/__photo.css');
+@import url('./__texts/__texts.css');
+
+.about-author {
+    height: 624px;
+    display: flex;
+    justify-content: space-between;
+}

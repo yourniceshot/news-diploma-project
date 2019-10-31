@@ -1,0 +1,9 @@
+.cards-container__title {
+    width: 712px;
+    height: 46px;
+    font-family: Roboto Slab;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 46px;
+    color: #1A1B22;
+}

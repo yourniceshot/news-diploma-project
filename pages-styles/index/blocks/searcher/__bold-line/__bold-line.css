@@ -1,0 +1,13 @@
+.searcher__bold-line {
+    position: absolute;
+    top: 72px;
+    right: 221px;
+    z-index: 2;
+}
+
+.searcher__bold-line-black {
+    position: absolute;
+    top: 72px;
+    right: 93px;
+    z-index: 2;
+}

@@ -1,0 +1,10 @@
+@import url('./__icon/__icon.css');
+@import url('./__link/__link.css');
+
+.cards-container__link-container {
+    width: 220px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

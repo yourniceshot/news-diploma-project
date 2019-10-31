@@ -1,0 +1,11 @@
+@import url('./grid-elem/grid-elem.css');
+@import url('./grid-icon/grid-icon.css');
+
+.technologies__grid {
+    width: 600px;
+    height: 144px;
+    display: grid;
+    grid-template-columns: repeat(4, 120px);
+    grid-column-gap: 40px;
+    margin-top: 19px;
+}

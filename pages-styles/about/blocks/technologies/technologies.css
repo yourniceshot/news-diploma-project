@@ -1,0 +1,12 @@
+@import url('./__grid/__grid.css');
+@import url('./__title/__title.css');
+
+.technologies {
+    height: 334px;
+    background-color: #F5F6F7;
+    padding-left: 104px;
+    padding-right: 230px;
+    padding-top: 75px;
+    display: flex;
+    justify-content: space-between;
+}

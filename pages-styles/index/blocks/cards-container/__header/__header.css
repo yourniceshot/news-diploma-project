@@ -1,0 +1,12 @@
+@import url('./__title/__title.css');
+@import url('./__link-container/__link-container.css');
+
+.cards-container__header {
+    width: 1224px;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 64px;
+}

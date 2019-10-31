@@ -1,0 +1,9 @@
+@import url('./__article/__article.css');
+@import url('./__title/__title.css');
+
+.about-author__texts {
+    height: 214px;
+    width: 600px;
+    margin-top: 131px;
+    margin-right: 216px;
+}

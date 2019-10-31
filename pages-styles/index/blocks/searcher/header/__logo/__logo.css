@@ -1,0 +1,14 @@
+.header__logo {
+    width: 200px;
+    height: 24px;
+    color: white;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: Roboto Slab;
+    font-weight: medium;
+    margin-left: 104px;
+}
+
+.header__logo-black {
+    color: #1A1B22;
+}

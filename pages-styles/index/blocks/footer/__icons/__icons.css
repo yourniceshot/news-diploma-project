@@ -1,0 +1,8 @@
+@import url('./__link/__link.css');
+
+.footer__icons {
+    width: 74px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 104px;
+}

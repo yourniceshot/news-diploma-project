@@ -1,0 +1,7 @@
+@import url('./__menu-item/__menu-item.css');
+
+.footer__menu {
+    width: 404px;
+    display: flex;
+    justify-content: space-between;
+}

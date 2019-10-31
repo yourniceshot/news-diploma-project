@@ -1,0 +1,8 @@
+@import url('./__article/__article.css');
+@import url('./__title/__title.css');
+
+.client-article {
+    height: 702px;
+    padding-top: 80px;
+    padding-left: 104px;
+}
