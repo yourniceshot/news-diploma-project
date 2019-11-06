@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
     <link rel="stylesheet" href="../pages-styles/index/blocks/page/normalize.css">
     <link rel="shortcut icon" href="./images/favicon.png">
+    <link rel="stylesheet" href="../node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="../node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
 </head>
 <body>
     <div class="page">
@@ -19,7 +21,7 @@
                 <a href="./about.html" class="header__menu_active header__menu_active-black">О проекте</a>
             </div>
         </header>
-        <hr class="searcher__line" size="1px" width="1440px" color="grey">
+        <hr class="searcher__line" size="1px" width="1440px" color="#B6BCBF">
         <hr class="searcher__bold-line-black" size="3px" width="92px" color="black">
     <div class="client-article">
         <h2 class="client-article__title">Клиентам</h2>
@@ -32,49 +34,147 @@
         </div>
     </div>
     <div class="technologies">
-        <h2 class="technologies__title">Используемые технологии</h2>
-        <div class="technologies__grid">
-            <span class="technologies__grid-elem">HTML</span> 
-            <span class="technologies__grid-elem">CSS</span> 
-            <span class="technologies__grid-elem">Java Script</span> 
-            <span class="technologies__grid-elem">Webpack</span> 
-            <img class="technologies__grid-icon" src="<%=require('./images/html.svg')%>" alt="html icon">
-            <img class="technologies__grid-icon" src="<%=require('./images/css.svg')%>" alt="css icon"> 
-            <img class="technologies__grid-icon js-icon" src="<%=require('./images/js.svg')%>" alt="js icon">
-            <img class="technologies__grid-icon wp-icon" src="<%=require('./images/webpack.svg')%>" alt="webpack icon">
+        <div class="technologies__container">
+            <h2 class="technologies__title">Используемые технологии</h2>
+            <div class="technologies__grid">
+                <span class="technologies__grid-elem">HTML</span> 
+                <span class="technologies__grid-elem">CSS</span> 
+                <span class="technologies__grid-elem">Java Script</span> 
+                <span class="technologies__grid-elem">Webpack</span> 
+                <img class="technologies__grid-icon" src="<%=require('./images/html.svg')%>" alt="html icon">
+                <img class="technologies__grid-icon" src="<%=require('./images/css.svg')%>" alt="css icon"> 
+                <img class="technologies__grid-icon js-icon" src="<%=require('./images/js.png')%>" alt="js icon">
+                <img class="technologies__grid-icon wp-icon" src="<%=require('./images/webpack.svg')%>" alt="webpack icon">
+            </div>
+            <div class="technologies__grid-mini">
+                <span class="technologies__grid-elem">HTML</span> 
+                <span class="technologies__grid-elem">CSS</span> 
+                <img class="technologies__grid-icon html-icon" src="<%=require('./images/html.svg')%>" alt="html icon">
+                <img class="technologies__grid-icon css-icon" src="<%=require('./images/css.svg')%>" alt="css icon"> 
+                <span class="technologies__grid-elem">Java Script</span> 
+                <span class="technologies__grid-elem">Webpack</span> 
+                <img class="technologies__grid-icon js-icon" src="<%=require('./images/js.png')%>" alt="js icon">
+                <img class="technologies__grid-icon wp-icon" src="<%=require('./images/webpack.svg')%>" alt="webpack icon">
+            </div>
         </div>
     </div>
     <div class="about-author">
-        <img class="about-author__photo">
-        <div class="about-author__texts">
-            <h2 class="about-author__title">Об авторе</h2>
-            <p class="about-author__article">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь, какими технологиями разработки владете.
-                Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь потенциальным заказчикам.</p>
+        <div class="about-author__container">
+            <img class="about-author__photo">
+            <div class="about-author__texts">
+                <h2 class="about-author__title">Об авторе</h2>
+                <p class="about-author__article">Это блок с описанием автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь, какими технологиями разработки владете.
+                    Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь потенциальным заказчикам.</p>
+            </div>
         </div>
     </div>
     <div class="commits">
-        <h2 class="commits__title">История коммитов из GitHub</h2>
-        <a href="#" class="commits__link">Открыть в  Github &gt;</a>
-        <a href="#" class="commits__slider">
-            <div class="slider-card">
-                <span class="slider-card__date"></span>
-                <img class="slider-card__photo">
-                <span class="slider-card__name"></span>
-                <span class="slider-card__email"></span>
-                <p class="slider-card__article"></p>
+        <div class="commits__header">
+            <h2 class="commits__title">История коммитов из GitHub</h2>
+            <div class="commits__link-container">
+                <a href="https://github.com/yourniceshot/news-diploma-project/commits/level-1" class="commits__link" target="_blank">Открыть в  Github</a>
+                <img class="commits__icon" src="<%=require('./images/back.svg')%>" alt="arrow icon">
             </div>
-        </a>
+        </div>
+        <div class="glide">
+            <div class="glide__track" data-glide-el="track">
+                <ul class="commits__slider glide__slides">
+                    <li class="slider-card glide__slide">
+                        <span class="slider-card__date">14 августа, 2019</span>
+                        <div class="slider-card__user">
+                            <img class="slider-card__photo" alt="user photo" src="<%=require('./images/image-04.png')%>">
+                            <div class="slider-card__user-info">
+                                <span class="slider-card__name">Мария Фёдорова</span>
+                                <span class="slider-card__email">mariiifed@yandex.ru</span>
+                            </div>
+                        </div>
+                        <p class="slider-card__article">You can install this plugin directly from NetBeans Plugin Portal: in NetBeans, open   Tools >
+                                Plugins > Available plugins   and find and install Emmet plugin.</p>
+                    </li>
+                    <li class="slider-card glide__slide">
+                        <span class="slider-card__date">14 августа, 2019</span>
+                        <div class="slider-card__user">
+                            <img class="slider-card__photo" alt="user photo" src="<%=require('./images/image-04.png')%>">
+                            <div class="slider-card__user-info">
+                                <span class="slider-card__name">Мария Фёдорова</span>
+                                <span class="slider-card__email">mariiifed@yandex.ru</span>
+                            </div>
+                        </div>
+                        <p class="slider-card__article">You can install this plugin directly from NetBeans Plugin Portal: in NetBeans, open   Tools >
+                                    Plugins > Available plugins   and find and install Emmet plugin.</p>
+                    </li>
+                    <li class="slider-card glide__slide">
+                            <span class="slider-card__date">14 августа, 2019</span>
+                            <div class="slider-card__user">
+                                <img class="slider-card__photo" alt="user photo" src="<%=require('./images/image-04.png')%>">
+                                <div class="slider-card__user-info">
+                                    <span class="slider-card__name">Мария Фёдорова</span>
+                                    <span class="slider-card__email">mariiifed@yandex.ru</span>
+                                </div>
+                            </div>
+                            <p class="slider-card__article">You can install this plugin directly from NetBeans Plugin Portal: in NetBeans, open   Tools >
+                                            Plugins > Available plugins   and find and install Emmet plugin.</p>
+                        </li>
+                        <li class="slider-card glide__slide">
+                            <span class="slider-card__date">14 августа, 2019</span>
+                            <div class="slider-card__user">
+                                <img class="slider-card__photo" alt="user photo" src="<%=require('./images/image-04.png')%>">
+                                <div class="slider-card__user-info">
+                                    <span class="slider-card__name">Мария Фёдорова</span>
+                                    <span class="slider-card__email">mariiifed@yandex.ru</span>
+                                </div>
+                            </div>
+                            <p class="slider-card__article">You can install this plugin directly from NetBeans Plugin Portal: in NetBeans, open   Tools >
+                                            Plugins > Available plugins   and find and install Emmet plugin.</p>
+                        </li>
+                        <li class="slider-card glide__slide">
+                                <span class="slider-card__date">14 августа, 2019</span>
+                                <div class="slider-card__user">
+                                    <img class="slider-card__photo" alt="user photo" src="<%=require('./images/image-04.png')%>">
+                                    <div class="slider-card__user-info">
+                                        <span class="slider-card__name">Мария Фёдорова</span>
+                                        <span class="slider-card__email">mariiifed@yandex.ru</span>
+                                    </div>
+                                </div>
+                                <p class="slider-card__article">You can install this plugin directly from NetBeans Plugin Portal: in NetBeans, open   Tools >
+                                                Plugins > Available plugins   and find and install Emmet plugin.</p>
+                        </li>
+                </ul>
+            </div>
+            <div class="glide__arrows" data-glide-el="controls">
+                <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                    <div class="commits__arrow-disc">
+                        <img src="<%=require('./images/Path5.svg')%>" alt="arrow" class="commits__arrow">
+                    </div>
+                </button>
+                <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                    <div class="commits__arrow-disc">
+                        <img src="<%=require('./images/Path6.svg')%>" alt="arrow" class="commits__arrow">
+                    </div>
+                </button>
+            </div>
+            <div class="glide__bullets" data-glide-el="controls[nav]">
+                <button class="glide__bullet" data-glide-dir="=0"></button>
+                <button class="glide__bullet" data-glide-dir="=1"></button>
+                <button class="glide__bullet" data-glide-dir="=2"></button>
+                <button class="glide__bullet" data-glide-dir="=2"></button>
+                <button class="glide__bullet" data-glide-dir="=2"></button>
+            </div>
+        </div>
     </div>
-    <footer class="footer">
-            <div class="footer__copyright">&copy; 2019  Supersite</div>
-            <div class="footer__menu">
-                <a href="./index.html" class="footer__menu-item">Главная</a>
-                <a href="./about.html" class="footer__menu-item">О проекте</a>
-                <a href="https://praktikum.yandex.ru" class="footer__menu-item">Яндекс.Практикум</a>
+    <a href="https://github.com/yourniceshot/news-diploma-project/commits/level-1" class="commits__link-mini" target="_blank">Открыть в GitHub</a>
+    <footer class="footer about-footer">
+            <div class="footer__container">
+                <div class="footer__copyright">&copy; 2019  Supersite</div>
+                <div class="footer__menu">
+                    <a href="./index.html" class="footer__menu-item">Главная</a>
+                    <a href="./about.html" class="footer__menu-item">О проекте</a>
+                    <a href="https://praktikum.yandex.ru" class="footer__menu-item" target="_blank">Яндекс.Практикум</a>
+                </div>
             </div>
             <div class="footer__icons">
-                    <a href="https://github.com/yourniceshot" class="footer__link"><img src="<%=require('./images/github.png')%>" alt="github icon" class="footer__icon"></a>
-                    <a href="https://www.facebook.com/profile.php?id=100004300862534" class="footer__link"><img src="<%=require('./images/fb.png')%>" alt="facebook icon" class="footer__icon"></a>
+                    <a href="https://github.com/yourniceshot" class="footer__link cat" target="_blank"><img src="<%=require('./images/github.png')%>" alt="github icon" class="footer__icon"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100004300862534" class="footer__link" target="_blank"><img src="<%=require('./images/fb.png')%>" alt="facebook icon" class="footer__icon"></a>
             </div>
         </footer>
     </div>

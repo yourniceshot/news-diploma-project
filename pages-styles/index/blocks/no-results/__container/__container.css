@@ -1,0 +1,15 @@
+@import url('./__title/__title.css');
+@import url('./__image/__image.css');
+@import url('./__subtitle/__subtitle.css');
+
+.no-results__container {
+    width: 356px;
+    margin: auto;
+}
+
+@media screen and (max-width: 380px) {
+
+    .no-results__container {
+        width: 300px;
+    }
+}

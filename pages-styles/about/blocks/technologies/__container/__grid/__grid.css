@@ -1,0 +1,47 @@
+@import url('./grid-elem/grid-elem.css');
+@import url('./grid-icon/grid-icon.css');
+
+.technologies__grid {
+    width: 600px;
+    height: 144px;
+    display: grid;
+    grid-template-columns: repeat(4, 120px);
+    column-gap: 40px;
+    margin-top: 19px;
+}
+
+@media screen and (max-width: 1150px) {
+
+    .technologies__grid {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 980px) {
+
+    .technologies__grid {
+        margin-top: 40px;
+        column-gap: 64px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .technologies__grid {
+        column-gap: 40px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+
+    .technologies__grid {
+        column-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+
+    .technologies__grid {
+        display: none;
+    }
+}

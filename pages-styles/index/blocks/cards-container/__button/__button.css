@@ -5,8 +5,25 @@
     background-color: white;
     margin-bottom: 80px;
     cursor: pointer;
+    margin-top: 64px;
 }
 
 .cards-container__button:hover {
     opacity: 0.9;
+}
+
+@media screen and (max-width: 769px) {
+
+    .cards-container__button {
+        margin-top: 22px;
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 501px) {
+
+    .cards-container__button {
+        margin-top: 13px;
+        margin-bottom: 32px;
+    }
 }

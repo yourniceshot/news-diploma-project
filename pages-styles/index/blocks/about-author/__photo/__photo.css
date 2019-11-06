@@ -1,8 +1,0 @@
-.about-author__photo {
-    width: 464px;
-    height: 464px;
-    border-radius: 1000px;
-    background-image: url("<%=require(../../../../../src/images/FullSizeRender-2.jpg");
-    margin-left: 104px;
-    margin-top: 80px;
-}

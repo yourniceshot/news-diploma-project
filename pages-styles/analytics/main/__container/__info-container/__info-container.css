@@ -1,0 +1,12 @@
+@import url('./__info-string/__info-string.css');
+
+.main__info-container {
+    margin-top: 24px;
+}
+
+@media screen and (max-width: 401px) {
+
+    .main__info-container {
+        margin-top: 16px;
+    }
+}

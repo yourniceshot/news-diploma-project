@@ -1,0 +1,17 @@
+@import url('./__photo/__photo.css');
+@import url('./__user-info/user-info.css');
+
+.slider-card__user {
+    height: 64px;
+    width: 276px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+}
+
+@media screen and (max-width: 1210px) {
+    .slider-card__user {
+        margin-top: 8px;
+    }
+}

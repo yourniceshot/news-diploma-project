@@ -1,0 +1,32 @@
+.about-author__article {
+    width: 600px;
+    height: 144px;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #1A1B22;
+    margin-top: 0;
+}
+
+@media screen and (max-width: 1171px) {
+
+    .about-author__article {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 940px) {
+
+    .about-author__article {
+        width: 424px;
+        height: 216px;
+    }
+}
+
+@media screen and (max-width: 451px) {
+
+    .about-author__article {
+        width: 288px;
+    }
+}

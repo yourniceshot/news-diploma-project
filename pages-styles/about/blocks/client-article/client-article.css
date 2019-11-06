@@ -2,7 +2,15 @@
 @import url('./__title/__title.css');
 
 .client-article {
-    height: 702px;
     padding-top: 80px;
     padding-left: 104px;
+}
+
+@media screen and (max-width: 960px) {
+
+    .client-article {
+        padding-top: 30px;
+        padding-left: 0;
+    }
+
 }

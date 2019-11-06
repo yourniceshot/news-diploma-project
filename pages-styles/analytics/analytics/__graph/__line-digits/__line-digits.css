@@ -1,0 +1,21 @@
+@import url('./__line-digit/__line-digit.css');
+
+.analytics__line-digits {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 104px;
+}
+
+@media screen and (max-width: 770px) {
+
+    .analytics__line-digits {
+        margin-left: 110px;
+    }
+}
+
+@media screen and (max-width: 401px) {
+
+    .analytics__line-digits {
+        display: none;
+    }
+}

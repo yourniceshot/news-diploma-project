@@ -1,8 +1,12 @@
-@import url('./__photo/__photo.css');
-@import url('./__texts/__texts.css');
+@import url('./__container/__container.css');
 
 .about-author {
-    height: 624px;
-    display: flex;
-    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+@media screen and (max-width: 940px) {
+
+    .about-author {
+        padding-bottom: 25px;
+    }
 }

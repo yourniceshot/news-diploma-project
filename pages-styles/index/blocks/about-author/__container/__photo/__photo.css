@@ -1,0 +1,33 @@
+.about-author__photo {
+    width: 464px;
+    height: 464px;
+    border-radius: 1000px;
+    background-image: url("<%=require(../../../../../src/images/FullSizeRender-2.jpg");
+    margin-top: 80px;
+}
+
+@media screen and (max-width: 1151px) {
+
+    .about-author__photo {
+        width: 364px;
+        height: 364px;
+    }
+}
+
+@media screen and (max-width: 940px) {
+
+    .about-author__photo {
+        width: 232px;
+        height: 232px;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    .about-author__photo {
+        width: 272px;
+        height: 272px;
+        margin-top: 16px;
+    }
+}

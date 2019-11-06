@@ -1,7 +1,7 @@
 @font-face {
     src: url('../../../../src/fonts/roboto-medium-webfont.woff');
     font-family: Roboto;
-    font-weight: medium;
+    font-weight: 500;
 }
 
 @font-face {

@@ -1,0 +1,19 @@
+.no-results__title {
+    width: 260px;
+    height: 30px;
+    color: #1A1B22;
+    font-family: Roboto Slab;
+    font-size: 26px;
+    line-height: 30px;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+@media screen and (max-width: 380px) {
+
+    .no-results__title {
+        width: 200px;
+        font-size: 20px;
+    }
+}

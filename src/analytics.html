@@ -7,40 +7,94 @@
     <meta name="author" lang="ru" content="Анастасия Медникова">
     <title>Analytics - NewsAnalyzer</title>
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+    <link rel="stylesheet" href="../pages-styles/index/blocks/page/normalize.css">
     <link rel="shortcut icon" href="./images/favicon.png">
 </head>
 <body>
     <div class="page">
         <header class="header">
-            <p class="header__logo">NewsAnalyzer</p>
+            <p class="header__logo header__logo-black">NewsAnalyzer</p>
             <div class="header__menu">
-                <a href="./index.html" class="header__menu_inactive">Главная</a>
-                <a href="./about.html" class="header__menu_inactive">О проекте</a>
+                <a href="./index.html" class="header__menu_inactive header__menu_inactive-black">Главная</a>
+                <a href="./about.html" class="header__menu_inactive header__menu_inactive-black">О проекте</a>
             </div>
         </header>
+        <hr class="searcher__line" size="1px" width="1440px" color="#B6BCBF">
         <div class="main">
-            <a href="#" class="main__path_link">Главная</a>
-            <span class="main__path_place">/ Аналитика</span>
-            <h2 class="main__title">Вы спросили:</h2>
-            <span class="main__subtitle">Новостей за неделю:</span>
-            <span class="main__amount"></span>
-            <span class="main__subtitle">Упоминаний в заголовках</span>
-            <span class="main__amount"></span>
+            <div class="main__container">
+                <div class="main__path">
+                    <a href="./index.html" class="main__path-link">Главная</a>
+                    <span class="main__path-place">/ Аналитика</span>
+                </div>
+                <h2 class="main__title">Вы спросили:</h2>
+                <div class="main__info-container">
+                    <div class="main__info-string">
+                        <span class="main__subtitle">Новостей за неделю:</span>
+                        <span class="main__amount">25 436</span>
+                    </div>
+                    <div class="main__info-string">
+                        <span class="main__subtitle">Упоминаний в заголовках:</span>
+                        <span class="main__amount">354</span>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="analytics">
-            <h2 class="analytics__title"></h2>
-            <div class="analytics__diagramm"></div>
+            <div class="analytics__graph">
+                <h2 class="analytics__title">Аналитика по дням</h2>
+                <div class="analytics__info">
+                    <div class="analytics__info-date">Дата (август)</div>
+                    <div class="analytics__info-amount">Кол-во упоминаний</div>
+                </div>
+                <hr class="analytics__line" size="2px" width="100%" color="#B6BCBF">
+                <div class="analytics__line-digits">
+                    <span class="analytics__line-digit">0</span>
+                    <span class="analytics__line-digit">25</span>
+                    <span class="analytics__line-digit">50</span>
+                    <span class="analytics__line-digit">75</span>
+                    <span class="analytics__line-digit">100</span>
+                </div>
+                <div class="analytics__diagramm">
+                    <div class="analytics__days">
+                        <div class="analytics__date">19, пн</div>
+                        <div class="analytics__date">20, вт</div>
+                        <div class="analytics__date">21, ср</div>
+                        <div class="analytics__date">22, чт</div>
+                        <div class="analytics__date">23, пт</div>
+                        <div class="analytics__date">24, сб</div>
+                        <div class="analytics__date">25, вс</div>
+                    </div>
+                    <div class="analytics__bars">
+                        <div class="analytics__bar" style="width:10%">10</div>
+                        <div class="analytics__bar" style="width:25%">25</div>
+                        <div class="analytics__bar" style="width:30%">30</div>
+                        <div class="analytics__bar" style="width:12%">12</div>
+                        <div class="analytics__bar" style="width:34%">34</div>
+                        <div class="analytics__bar" style="width:73%">73</div>
+                        <div class="analytics__bar" style="width:9%">9</div>
+                    </div>
+                </div>
+                <div class="analytics__line-digits">
+                    <span class="analytics__line-digit">0</span>
+                    <span class="analytics__line-digit">25</span>
+                    <span class="analytics__line-digit">50</span>
+                    <span class="analytics__line-digit">75</span>
+                    <span class="analytics__line-digit">100</span>
+                </div>
+            </div>
         </div>
         <footer class="footer">
-                <div class="footer__copyright"></div>
-                <div class="footer__menu">
-                    <a href="./index.html" class="footer__menu_item">Главная</a>
-                    <a href="./about.html" class="footer__menu_item">О проекте</a>
-                    <a href="https://praktikum.yandex.ru" class="footer__menu_item">Яндекс.Практикум</a>
+                <div class="footer__container">
+                    <div class="footer__copyright">&copy; 2019  Supersite</div>
+                    <div class="footer__menu">
+                        <a href="./index.html" class="footer__menu-item">Главная</a>
+                        <a href="./about.html" class="footer__menu-item">О проекте</a>
+                        <a href="https://praktikum.yandex.ru" class="footer__menu-item" target="_blank">Яндекс.Практикум</a>
+                    </div>
                 </div>
                 <div class="footer__icons">
-                        <a href="https://github.com/yourniceshot" class="footer__link"><img src="<%=require('./images/github.png')%>" alt="github icon" class="footer__icon"></a>
-                        <a href="https://www.facebook.com/profile.php?id=100004300862534" class="footer__link"><img src="<%=require('./images/fb.png')%>" alt="facebook icon" class="footer__icon"></a>
+                        <a href="https://github.com/yourniceshot" class="footer__link cat" target="_blank"><img src="<%=require('./images/github.png')%>" alt="github icon" class="footer__icon"></a>
+                        <a href="https://www.facebook.com/profile.php?id=100004300862534" class="footer__link" target="_blank"><img src="<%=require('./images/fb.png')%>" alt="facebook icon" class="footer__icon"></a>
                 </div>
             </footer>
     </div>

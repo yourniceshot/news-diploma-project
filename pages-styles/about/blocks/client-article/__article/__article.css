@@ -1,6 +1,5 @@
 .client-article__article {
     width: 815px;
-    height: 458px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -9,4 +8,42 @@
     font-size: 18px;
     line-height: 24px;
     color: #1A1B22;
+    margin-bottom: 94px;
+}
+
+@media screen and (max-width: 960px) {
+
+    .client-article__article {
+        width: 688px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+
+    .client-article__article {
+        width: 550px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .client-article__article {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .client-article__article {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .client-article__article {
+        width: 288px;
+    }
 }

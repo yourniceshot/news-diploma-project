@@ -10,3 +10,17 @@
     justify-content: space-between;
     align-items: center;
 }
+
+@media screen and (max-width: 769px) {
+
+    .header {
+        height: 64px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    .header {
+        height: 56px;
+    }
+}

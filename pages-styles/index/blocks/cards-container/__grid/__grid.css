@@ -1,9 +1,0 @@
-@import url('./__card/__card.css');
-
-.cards-container__grid {
-    width: 1232px;
-    min-height: 576px;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 400px);
-    grid-gap: 16px 16px;
-}

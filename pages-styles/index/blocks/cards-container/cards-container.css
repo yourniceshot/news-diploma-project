@@ -1,5 +1,5 @@
 @import url('./__button/__button.css');
-@import url('./__grid/__grid.css');
+@import url('./__grid-container/__grid-container.css');
 @import url('./__header/__header.css');
 
 .cards-container {

@@ -1,9 +1,0 @@
-@import url('./card-image/card-image.css');
-@import url('./card-texts/card-texts.css');
-
-.cards-container__card {
-    width: 400px;
-    height: 576px;
-    background-color: white;
-    border-radius: 16px;
-}

@@ -1,0 +1,26 @@
+@import url('./__article/__article.css');
+@import url('./__date/__date.css');
+@import url('./__user/__user.css');
+
+.slider-card {
+    width: 400px;
+    background-color: white;
+    border-radius: 16px;
+    padding-top: 24px;
+    padding-left: 24px;
+    margin-right: 16px;
+    padding-bottom: 58px;
+}
+
+@media screen and (max-width: 1210px) {
+    .slider-card {
+        width: 310px;
+        padding-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .slider-card {
+        padding-bottom: 0;
+    }
+}

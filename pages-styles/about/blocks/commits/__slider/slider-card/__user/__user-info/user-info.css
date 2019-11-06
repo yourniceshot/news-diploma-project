@@ -1,0 +1,9 @@
+@import url('./__email/__email.css');
+@import url('./__name/__name.css');
+
+.slider-card__user-info {
+    width: 196px;
+    height: 54px;
+    display: flex;
+    flex-direction: column;
+}

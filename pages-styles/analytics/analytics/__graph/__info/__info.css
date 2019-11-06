@@ -1,0 +1,18 @@
+@import url('./__info-amount/__info-amount.css');
+@import url('./__info-date/__info-date.css');
+
+.analytics__info {
+    width: 253px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    margin-top: 48px;
+}
+
+@media screen and (max-width: 401px) {
+
+    .analytics__info {
+        margin-top: 16px;
+    }
+}

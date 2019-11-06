@@ -6,7 +6,7 @@
 	border-bottom-color: #888;
 	border-radius: 50%;
 	animation: spin .75s infinite linear;
-	margin-left: 683px;
+	margin: auto;
 	margin-top: 80px;
 	margin-bottom: 24px;
 }

@@ -1,0 +1,18 @@
+@import url('./__icon/__icon.css');
+@import url('./__link/__link.css');
+
+.commits__link-container {
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.commits__link-container:hover {
+    opacity: 0.4;
+}
+
+@media screen and (max-width: 600px) {
+    .commits__link-container {
+        display: none;
+    }
+}
