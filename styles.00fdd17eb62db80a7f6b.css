@@ -596,7 +596,7 @@
 .searcher {
     width: 100%;
     height: 576px;
-    background-image: url("<%=require('../../../../../../src/images/georgia-de-lotz--UsJoNxLaNo-unsplash.png')%>");
+    background-image: url(./images/georgia-de-lotz--UsJoNxLaNo-unsplash.png);
     background-size: cover;
     background-position: center;
     margin: 0;
@@ -722,8 +722,8 @@
     width: 464px;
     height: 464px;
     border-radius: 1000px;
-    background-image: url("<%=require('../../../../../../src/images/FullSizeRender-2.jpg')%>");
     margin-top: 80px;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 1151px) {
