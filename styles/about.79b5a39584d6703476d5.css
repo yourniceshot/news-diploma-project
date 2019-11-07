@@ -1,17 +1,17 @@
 @font-face {
-    src: url(/news-diploma-project./vendor/roboto-medium-webfont.woff);
+    src: url(/news-diploma-project/./vendor/roboto-medium-webfont.woff);
     font-family: Roboto;
     font-weight: 500;
 }
 
 @font-face {
-    src: url(/news-diploma-project./vendor/roboto-regular-webfont.woff);
+    src: url(/news-diploma-project/./vendor/roboto-regular-webfont.woff);
     font-family: Roboto;
     font-weight: normal;
 }
 
 @font-face {
-    src:  url(/news-diploma-project./vendor/robotoslab-regular-webfont.woff);
+    src:  url(/news-diploma-project/./vendor/robotoslab-regular-webfont.woff);
     font-family: Roboto Slab;
     font-weight: lighter;
 }
@@ -1261,4 +1261,4 @@ https://flickity.metafizzy.co
         padding-bottom: 25px;
     }
 }
-
+@font-face{src:url(/news-diploma-project/./vendor/roboto-medium-webfont.woff);font-family:Roboto;font-weight:500}@font-face{src:url(/news-diploma-project/./vendor/roboto-regular-webfont.woff);font-family:Roboto;font-weight:400}@font-face{src:url(/news-diploma-project/./vendor/robotoslab-regular-webfont.woff);font-family:Roboto Slab;font-weight:lighter}

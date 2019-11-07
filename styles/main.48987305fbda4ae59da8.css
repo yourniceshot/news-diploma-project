@@ -596,7 +596,7 @@
 .searcher {
     width: 100%;
     height: 576px;
-    background-image: url(/news-diploma-project./images/georgia-de-lotz--UsJoNxLaNo-unsplash.png);
+    background-image: url("<%=require('../../../../src/images/georgia-de-lotz--UsJoNxLaNo-unsplash.png')%>");
     background-size: cover;
     background-position: center;
     margin: 0;
@@ -1722,20 +1722,20 @@
     display: none;
 }
 @font-face {
-    src: url(/news-diploma-project./vendor/roboto-medium-webfont.woff);
+    src: url(/news-diploma-project/./vendor/roboto-medium-webfont.woff);
     font-family: Roboto;
     font-weight: 500;
 }
 
 @font-face {
-    src: url(/news-diploma-project./vendor/roboto-regular-webfont.woff);
+    src: url(/news-diploma-project/./vendor/roboto-regular-webfont.woff);
     font-family: Roboto;
     font-weight: normal;
 }
 
 @font-face {
-    src:  url(/news-diploma-project./vendor/robotoslab-regular-webfont.woff);
+    src:  url(/news-diploma-project/./vendor/robotoslab-regular-webfont.woff);
     font-family: Roboto Slab;
     font-weight: lighter;
 }
-.page{max-width:1440px;min-width:320px;width:100vw;background-color:#fff;font-family:Roboto}.body,.page{overflow:hidden;margin:0;padding:0}
+.page{max-width:1440px;min-width:320px;width:100vw;background-color:#fff;font-family:Roboto}.body,.page{overflow:hidden;margin:0;padding:0}@font-face{src:url(/news-diploma-project/./vendor/roboto-medium-webfont.woff);font-family:Roboto;font-weight:500}@font-face{src:url(/news-diploma-project/./vendor/roboto-regular-webfont.woff);font-family:Roboto;font-weight:400}@font-face{src:url(/news-diploma-project/./vendor/robotoslab-regular-webfont.woff);font-family:Roboto Slab;font-weight:lighter}
