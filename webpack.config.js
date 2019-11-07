@@ -8,7 +8,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].[chunkhash].js',
-        publicPath: 'https://yourniceshot.github.io/'
+        publicPath: '/news-diploma-project/'
     },
     module: {
         rules: [{
