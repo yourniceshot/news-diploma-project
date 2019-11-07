@@ -1,2 +1,1 @@
-import "./style.css";
-import "../js-modules/glide.js"
+import "../pages-styles/index/blocks/page/page.css";

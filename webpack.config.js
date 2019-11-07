@@ -4,10 +4,13 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const WebpackMd5Hash = require('webpack-md5-hash');
 
 module.exports = {
-    entry: { main: './src/index.js' },
+    entry: { main: './src/index.js',
+            about: './src/about.js',
+            analytics: './src/analytics.js' },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: '[name].[chunkhash].js'
+        filename: '[name].[chunkhash].js',
+        publicPath: '/news-diploma-project'
     },
     module: {
         rules: [{
@@ -35,7 +38,7 @@ module.exports = {
         ]
     },
     plugins: [ 
-        new MiniCssExtractPlugin({filename: 'styles.[contenthash].css'}),
+        new MiniCssExtractPlugin({filename: './styles/[name].[contenthash].css'}),
 
         new HtmlWebpackPlugin({
             inject: false,
@@ -43,10 +46,12 @@ module.exports = {
             filename: 'index.html'
           }),
         new HtmlWebpackPlugin({
+            inject: false,
             template: './src/about.html',
             filename: 'about.html'
         }),
         new HtmlWebpackPlugin({
+            inject: false,
             template: './src/analytics.html',
             filename: 'analytics.html'
         }),

@@ -2,3 +2,6 @@
 @import url('../client-article/client-article.css');
 @import url('../technologies/technologies.css');
 @import url('../commits/commits.css');
+@import url('../../../index/blocks/footer/footer.css');
+@import url('../../../index/blocks/searcher/header/header.css');
+@import url('../../../index/blocks/about-author/about-author.css');

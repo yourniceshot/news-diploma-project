@@ -1,0 +1,1 @@
+import "../pages-styles/analytics/page/page.css";

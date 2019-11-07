@@ -1,2 +1,5 @@
 @import url('../main/main.css');
 @import url('../analytics/analytics.css');
+@import url('../../index/blocks/page/fonts.css');
+@import url('../../index/blocks/searcher/header/header.css');
+@import url('../../index/blocks/footer/footer.css');
