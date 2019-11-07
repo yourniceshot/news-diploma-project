@@ -5,3 +5,21 @@
 @import url('../../../index/blocks/footer/footer.css');
 @import url('../../../index/blocks/searcher/header/header.css');
 @import url('../../../index/blocks/about-author/about-author.css');
+
+@font-face {
+    src: url('../../../../src/fonts/roboto-medium-webfont.woff');
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+@font-face {
+    src: url('../../../../src/fonts/roboto-regular-webfont.woff');
+    font-family: Roboto;
+    font-weight: normal;
+}
+
+@font-face {
+    src:  url('../../../../src/fonts/robotoslab-regular-webfont.woff');
+    font-family: Roboto Slab;
+    font-weight: lighter;
+}

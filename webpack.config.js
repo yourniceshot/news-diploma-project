@@ -10,7 +10,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].[chunkhash].js',
-        publicPath: '/news-diploma-project'
+        publicPath: '/news-diploma-project/'
     },
     module: {
         rules: [{
@@ -32,6 +32,10 @@ module.exports = {
                      'file-loader?name=./images/[name].[ext]',
                      {
                          loader: 'image-webpack-loader',
+                         options: {
+                            bypassOnDebug: true, 
+                            disable: true 
+                         }
                      },
                 ]
             }
