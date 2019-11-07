@@ -281,19 +281,19 @@
     }
 }
 @font-face {
-    src: url(.././vendor/roboto-medium-webfont.woff);
+    src: url(./vendor/roboto-medium-webfont.woff);
     font-family: Roboto;
     font-weight: 500;
 }
 
 @font-face {
-    src: url(.././vendor/roboto-regular-webfont.woff);
+    src: url(./vendor/roboto-regular-webfont.woff);
     font-family: Roboto;
     font-weight: normal;
 }
 
 @font-face {
-    src:  url(.././vendor/robotoslab-regular-webfont.woff);
+    src:  url(./vendor/robotoslab-regular-webfont.woff);
     font-family: Roboto Slab;
     font-weight: lighter;
 }
@@ -849,4 +849,4 @@
        right: 98px;
     }
 }
-@font-face{src:url(.././vendor/roboto-medium-webfont.woff);font-family:Roboto;font-weight:500}@font-face{src:url(.././vendor/roboto-regular-webfont.woff);font-family:Roboto;font-weight:400}@font-face{src:url(.././vendor/robotoslab-regular-webfont.woff);font-family:Roboto Slab;font-weight:lighter}
+@font-face{src:url(./vendor/roboto-medium-webfont.woff);font-family:Roboto;font-weight:500}@font-face{src:url(./vendor/roboto-regular-webfont.woff);font-family:Roboto;font-weight:400}@font-face{src:url(./vendor/robotoslab-regular-webfont.woff);font-family:Roboto Slab;font-weight:lighter}
