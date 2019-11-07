@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="краткое описание страницы">
+    <meta name="description" content="Главная страница сайта с поиском статистики по количеству новостей за прошедшую неделю">
     <meta name="author" lang="ru" content="Анастасия Медникова">
     <title>NewsAnalyzer</title>
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css%>">
     <link rel="stylesheet" href="../pages-styles/index/blocks/page/normalize.css">
-    <link rel="shortcut icon" href="./images/favicon.png">
+    <link rel="shortcut icon" href="<%=require('./images/favicon.png')%>">
 </head>
 <body>
     <div class="page">
@@ -27,7 +27,7 @@
                 <h1 class="searcher__title">Что в мире творится?</h1>
                 <h3 class="searcher__subtitle">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за прошедшую неделю.</h3>
                 <form class="searcher__form" name="search">
-                    <input style="padding-left: 24px" type="text" name="request" class="form-input" placeholder="Введите тему новости">
+                    <input style="padding-left: 24px" type="text" name="request" class="form-input" placeholder="Введите тему новости" required>
                     <button class="form-button">Искать</button>
                 </form>
             </div>
