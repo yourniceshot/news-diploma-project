@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 800px) {
-    .glide__arrow {
+    .commits__arrows {
         display: none;
     }
 }

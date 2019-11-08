@@ -6,6 +6,7 @@
     margin-bottom: 80px;
     cursor: pointer;
     margin-top: 64px;
+    border: none;
 }
 
 .cards-container__button:hover {
