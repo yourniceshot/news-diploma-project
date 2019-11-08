@@ -7,7 +7,7 @@
 
 .searcher__bold-line-black {
     position: absolute;
-    top: 72px;
+    top: 79px;
     right: 93px;
     z-index: 2;
 }
@@ -53,7 +53,7 @@
     }
 
     .searcher__bold-line-black {
-        top: 56px;
+        top: 63px;
         right: 43px;
     }
 }
