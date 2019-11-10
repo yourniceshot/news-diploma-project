@@ -1,0 +1,8 @@
+.analytics__line-digits_top::before {
+    content: "";
+    width: 100%;
+    height: 2px;
+    display: block;
+    background: #B6BCBF;
+    margin-bottom: 16px;
+}

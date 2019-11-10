@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0 user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Главная страница сайта с поиском статистики по количеству новостей за прошедшую неделю">
     <meta name="author" lang="ru" content="Анастасия Медникова">
@@ -16,12 +16,10 @@
             <header class="header">
                 <p class="header__logo">NewsAnalyzer</p>
                 <div class="header__menu">
-                    <a href="./index.html" class="header__menu_active">Главная</a>
-                    <a href="./about.html" class="header__menu_inactive">О проекте</a>
+                    <a href="./index.html" class="header__menu-link header__menu-link_active">Главная</a>
+                    <a href="./about.html" class="header__menu-link header__menu-link_inactive">О проекте</a>
                 </div>
             </header>
-            <hr class="searcher__line" size="1px" width="1440px" color="grey">
-            <hr class="searcher__bold-line" size="3px" width="68px" color="white">
             <div class="searcher__search">
                 <h1 class="searcher__title">Что в мире творится?</h1>
                 <h3 class="searcher__subtitle">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за прошедшую неделю.</h3>
@@ -52,49 +50,49 @@
             </div>
             <div class="cards-container__grid-container">
                 <div class="cards-container__grid">
-                    <div class="cards-container__card">
-                        <img class="card-image" src="<%=require('./images/image_08.png')%>" alt="card image">
-                        <div class="card-texts">
-                            <span class="card-date">2 августа, 2019</span>
-                            <h4 class="card-title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h4>
-                            <p class="card-article">Знаменитый фотограф снимает первозданные леса России, чтобы рассказать о необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую тайгу, где...</p>
-                            <div class="card-source">Лента.ру</div>
+                    <div class="cards-container__card card">
+                        <img class="card__image" src="<%=require('./images/image_08.png')%>" alt="card image">
+                        <div class="card__texts">
+                            <span class="card__date">2 августа, 2019</span>
+                            <h4 class="card__title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h4>
+                            <p class="card__article">Знаменитый фотограф снимает первозданные леса России, чтобы рассказать о необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую тайгу, где...</p>
+                            <div class="card__source">Лента.ру</div>
                         </div>
                     </div>
-                    <div class="cards-container__card">
-                        <img class="card-image" src="<%=require('./images/image_08.png')%>" alt="card image">
-                        <div class="card-texts">
-                            <span class="card-date">2 августа, 2019</span>
-                            <h4 class="card-title">Национальное достояние – парки</h4>
-                            <p class="card-article">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
-                            <div class="card-source">Лента.ру</div>
+                    <div class="cards-container__card card">
+                        <img class="card__image" src="<%=require('./images/image_08.png')%>" alt="card image">
+                        <div class="card__texts">
+                            <span class="card__date">2 августа, 2019</span>
+                            <h4 class="card__title">Национальное достояние – парки</h4>
+                            <p class="card__article">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
+                            <div class="card__source">Лента.ру</div>
                         </div>
                     </div>
-                    <div class="cards-container__card">
-                        <img class="card-image" src="<%=require('./images/image_08.png')%>" alt="card image">
-                        <div class="card-texts">
-                            <span class="card-date">2 августа, 2019</span>
-                            <h4 class="card-title">Национальное достояние – парки</h4>
-                            <p class="card-article">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
-                            <div class="card-source">Лента.ру</div>
+                    <div class="cards-container__card card">
+                        <img class="card__image" src="<%=require('./images/image_08.png')%>" alt="card image">
+                        <div class="card__texts">
+                            <span class="card__date">2 августа, 2019</span>
+                            <h4 class="card__title">Национальное достояние – парки</h4>
+                            <p class="card__article">В 2016 году Америка отмечала важный юбилей: сто лет назад здесь начала складываться система национальных парков – охраняемых территорий, где и сегодня каждый может приобщиться к природе.</p>
+                            <div class="card__source">Лента.ру</div>
                         </div>
                     </div>
-                    <div class="cards-container__card">
-                        <img class="card-image" src="<%=require('./images/image_08.png')%>" alt="card image">
-                        <div class="card-texts">
-                            <span class="card-date">2 августа, 2019</span>
-                            <h4 class="card-title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h4>
-                            <p class="card-article">Знаменитый фотограф снимает первозданные леса России, чтобы рассказать о необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую тайгу, где...</p>
-                            <div class="card-source">Лента.ру</div>
+                    <div class="cards-container__card card">
+                        <img class="card__image" src="<%=require('./images/image_08.png')%>" alt="card image">
+                        <div class="card__texts">
+                            <span class="card__date">2 августа, 2019</span>
+                            <h4 class="card__title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h4>
+                            <p class="card__article">Знаменитый фотограф снимает первозданные леса России, чтобы рассказать о необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую тайгу, где...</p>
+                            <div class="card__source">Лента.ру</div>
                         </div>
                     </div>
-                    <div class="cards-container__card">
-                        <img class="card-image" src="<%=require('./images/image_08.png')%>" alt="card image">
-                        <div class="card-texts">
-                            <span class="card-date">2 августа, 2019</span>
-                            <h4 class="card-title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h4>
-                            <p class="card-article">Знаменитый фотограф снимает первозданные леса России, чтобы рассказать о необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую тайгу, где...</p>
-                            <div class="card-source">Лента.ру</div>
+                    <div class="cards-container__card card">
+                        <img class="card__image" src="<%=require('./images/image_08.png')%>" alt="card image">
+                        <div class="card__texts">
+                            <span class="card__date">2 августа, 2019</span>
+                            <h4 class="card__title">«Первозданная тайга»: новый фотопроект Игоря Шпиленка</h4>
+                            <p class="card__article">Знаменитый фотограф снимает первозданные леса России, чтобы рассказать о необходимости их сохранения. В этот раз он отправился в Двинско-Пинежскую тайгу, где...</p>
+                            <div class="card__source">Лента.ру</div>
                         </div>
                     </div>
                 </div>
@@ -122,8 +120,8 @@
                 </div>
             </div>
             <div class="footer__icons">
-                    <a href="https://github.com/yourniceshot" class="footer__link cat" target="_blank"><img src="<%=require('./images/github.png')%>" alt="github icon" class="footer__icon"></a>
-                    <a href="https://www.facebook.com/profile.php?id=100004300862534" class="footer__link" target="_blank"><img src="<%=require('./images/fb.png')%>" alt="facebook icon" class="footer__icon"></a>
+                    <a href="https://github.com/yourniceshot" class="footer__social-link footer__social-link_cat" target="_blank"><img src="<%=require('./images/github.png')%>" alt="github icon" class="footer__icon"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100004300862534" class="footer__social-link" target="_blank"><img src="<%=require('./images/fb.png')%>" alt="facebook icon" class="footer__icon"></a>
             </div>
         </footer>
     </div> 

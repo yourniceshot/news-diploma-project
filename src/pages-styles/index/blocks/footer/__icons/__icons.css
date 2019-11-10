@@ -1,0 +1,43 @@
+@import url('./__social-link/__social-link.css');
+
+.footer__icons {
+    width: 74px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 104px;
+}
+
+@media screen and (max-width: 901px) {
+
+    .footer__icons {
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 801px) {
+
+    .footer__icons {
+        margin-right: 42px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+
+    .footer__icons {
+        width: 55px;
+    }
+}
+
+@media screen and (max-width: 671px) {
+
+    .footer__icons {
+        width: 68px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+
+    .footer__icons {
+        margin-right: 18px;
+    }
+}

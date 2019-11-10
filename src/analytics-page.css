@@ -1,26 +1,29 @@
-@import url('../pages-styles/analytics/main/main.css');
-@import url('../pages-styles/analytics/analytics/analytics.css');
-@import url('../pages-styles/index/blocks/searcher/header/header.css');
-@import url('../pages-styles/index/blocks/footer/footer.css');
+@import url('./pages-styles/analytics/main/main.css');
+@import url('./pages-styles/analytics/analytics/analytics.css');
+@import url('./pages-styles/index/blocks/searcher/header/header.css');
+@import url('./pages-styles/index/blocks/footer/footer.css');
 
 @font-face {
-    src: url('../src/fonts/roboto-medium-webfont.woff');
+    src: url('./fonts/roboto-medium-webfont.woff');
     font-family: Roboto;
     font-weight: 500;
 }
 
 @font-face {
-    src: url('../src/fonts/roboto-regular-webfont.woff');
+    src: url('./fonts/roboto-regular-webfont.woff');
     font-family: Roboto;
     font-weight: normal;
 }
 
 @font-face {
-    src:  url('../src/fonts/robotoslab-regular-webfont.woff');
+    src:  url('./fonts/robotoslab-regular-webfont.woff');
     font-family: Roboto Slab;
     font-weight: lighter;
 }
 
 .page {
-    font-family: Roboto, serif;
+    width: 100%;
+    background-color: #ffffff;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    margin: 0 auto;
 }

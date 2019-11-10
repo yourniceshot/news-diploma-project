@@ -1,8 +1,0 @@
-@import url('./slider-card/slider-card.css');
-@import url('../../../../../node_modules/flickity/css/flickity.css');
-@import url('./arrow-disc/__arrow-disc.css');
-
-.commits__slider {
-    display: flex;
-    flex-direction: row;
-}

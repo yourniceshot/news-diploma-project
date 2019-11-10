@@ -1,0 +1,16 @@
+@import url('./_active/_active.css');
+@import url('./_inactive/_inactive.css');
+
+.header__menu-link {
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: normal;
+}
+
+@media screen and (max-width: 537px) {
+    .header__menu-link {
+        font-size: 16px;
+    }
+}

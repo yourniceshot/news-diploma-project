@@ -1,2 +1,2 @@
-import "../pages-styles/index/blocks/page/normalize.css"
-import "../src/index-page.css";
+import "./pages-styles/index/blocks/page/normalize.css"
+import "./index-page.css";

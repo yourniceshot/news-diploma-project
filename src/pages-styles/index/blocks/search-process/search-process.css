@@ -1,0 +1,11 @@
+@import url('../search-process/__circle-preloader/__circle-preloader.css');
+@import url('../search-process/__title/__title.css');
+
+.search-process {
+    width: 100%;
+    background-color: #F5F6F7;
+    margin-top: 0;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: none;
+}

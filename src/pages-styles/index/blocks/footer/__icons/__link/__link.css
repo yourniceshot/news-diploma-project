@@ -1,0 +1,11 @@
+.footer__social-link {
+    width: 24px;
+    height: 24px;
+}
+
+@media screen and (max-width: 451px) {
+
+    .cat {
+        margin-right: 21px;
+    }
+}
