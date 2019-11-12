@@ -21,4 +21,4 @@ Main: HTML3, CSS5, JS, Git, GitHub, Webpack; for layout: flexbox and greed layou
 ## Additional information 
 
 - Project version is 0.1.3;
-- The current version of the project is avalable [here](https://github.com/yourniceshot/news-diploma-project).
+- The current version of the project is available [here](https://github.com/yourniceshot/news-diploma-project).
