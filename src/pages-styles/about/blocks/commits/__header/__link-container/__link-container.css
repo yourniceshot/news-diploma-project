@@ -2,9 +2,10 @@
 @import url('./__link/__link.css');
 
 .commits__link-container {
-    width: 170px;
+    max-width: 170px;
     display: flex;
     justify-content: space-between;
+    cursor: url('../../../../../../images/cursor.svg'), pointer;
 }
 
 .commits__link-container:hover {

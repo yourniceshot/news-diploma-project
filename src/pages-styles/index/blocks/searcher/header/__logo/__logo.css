@@ -6,6 +6,7 @@
     font-weight: normal;
     margin-left: 104px;
     text-decoration: none;
+    cursor: url('../../../../../../images/cursor.svg'), pointer;
 }
 
 .header__logo-black {

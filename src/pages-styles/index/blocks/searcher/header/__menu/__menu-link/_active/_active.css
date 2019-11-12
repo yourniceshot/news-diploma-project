@@ -13,7 +13,7 @@
     display: block;
     background: white;
     position: absolute;
-    bottom: 2px;
+    bottom: 12px;
 }
 
 .header__menu-link_active-black::after {
@@ -29,7 +29,7 @@
 @media screen and (max-width: 769px) {
 
     .header__menu-link_active::after {
-        bottom: -3px;
+        bottom: 9px;
     }
 
     .header__menu-link_active-black::after{
@@ -39,7 +39,7 @@
 
 @media screen and (max-width: 537px) {
     .header__menu-link_active::after {
-        bottom: 0;
+        bottom: 9px;
         width: 61px;
     }
 
@@ -51,7 +51,7 @@
 @media screen and (max-width: 380px) {
 
     .header__menu-link_active::after {
-        bottom: -3px;
+        bottom: 7px;
     }
 
     .header__menu-link_active-black::after{

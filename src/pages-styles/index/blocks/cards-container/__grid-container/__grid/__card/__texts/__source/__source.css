@@ -1,6 +1,5 @@
 .card__source {
-    width: 352px;
-    height: 20px;
+    max-width: 352px;
     font-family: Roboto Slab;
     font-weight: bold;
     font-size: 16px;

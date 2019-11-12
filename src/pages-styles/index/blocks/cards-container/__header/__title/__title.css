@@ -1,6 +1,5 @@
 .cards-container__title {
-    width: 712px;
-    height: 46px;
+    max-width: 712px;
     font-family: Roboto Slab;
     font-weight: normal;
     font-size: 40px;
@@ -40,13 +39,6 @@
     }
 }
 
-@media screen and (max-width: 651px) {
-
-    .cards-container__title {
-        width: 200px;
-    }
-}
-
 @media screen and (max-width: 537px) {
 
     .cards-container__title {
@@ -57,9 +49,8 @@
 @media screen and (max-width: 501px) {
 
     .cards-container__title {
-        width: 300px;
+        max-width: 288px;
         margin-top: 0;
-        margin-left: 0;
         margin-bottom: 6px;
     }
 }
@@ -67,7 +58,7 @@
 @media screen and (max-width: 380px) {
 
     .cards-container__title {
-        width: 288px;
         margin-bottom: 26px;
+        margin-left: 16px;
     }
 }

@@ -6,6 +6,7 @@
     font-weight: normal;
     text-decoration: none;
     text-align: center;
+    cursor: url('../../../../../../../images/cursor.svg'), pointer;
 }
 
 .footer__menu-item:hover {

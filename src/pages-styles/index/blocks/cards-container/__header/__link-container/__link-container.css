@@ -2,7 +2,7 @@
 @import url('./__link/__link.css');
 
 .cards-container__link-container {
-    width: 220px;
+    min-width: 220px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,5 +45,19 @@
 
     .cards-container__link-container {
         margin-right: 41px;
+    }
+}
+
+@media screen and (max-width: 501px) {
+
+    .cards-container__link-container {
+        margin-left: 44px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    .cards-container__link-container {
+        margin-left: 16px;
     }
 }
