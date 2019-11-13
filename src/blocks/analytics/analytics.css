@@ -1,0 +1,34 @@
+@import url('./__bar/analytics__bar.css');
+@import url('./__bars/analytics__bars.css');
+@import url('./__date/analytics__date.css');
+@import url('./__days/analytics__days.css');
+@import url('./__diagramm/analytics__diagramm.css');
+@import url('./__graph/analytics__graph.css');
+@import url('./__info-amount/analytics__info-amount.css');
+@import url('./__info-date/analytics__info-date.css');
+@import url('./__info/analytics__info.css');
+@import url('./__line-digit/analytics__line-digit.css');
+@import url('./__line-digits/analytics__line-digits.css');
+@import url('./__line/analytics__line.css');
+@import url('./__title/analytics__title.css');
+
+.analytics {
+    width: 100%;
+    background-color: #F5F6F7;
+    padding-bottom: 40px;
+    padding-top: 80px;
+}
+
+@media screen and (max-width: 801px) {
+
+    .analytics {
+        padding-top: 40px;
+    }
+}
+
+@media screen and (max-width: 401px) {
+
+    .analytics {
+        padding-top: 24px;
+    }
+}

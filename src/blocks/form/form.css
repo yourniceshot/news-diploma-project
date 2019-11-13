@@ -1,0 +1,46 @@
+@import url('./__button/form__button.css');
+@import url('./__input/form__input.css');
+
+.searcher__form {
+    width: 608px;
+    position: relative;
+    margin-top: 64px;
+}
+
+@media screen and (max-width: 769px) {
+
+    .searcher__form {
+        margin-top: 24px;
+        width: 460px;
+    }
+}
+
+@media screen and (max-width: 483px) {
+
+    .searcher__form {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+
+    .searcher__form {
+        width: 380px;
+    }
+}
+
+
+@media screen and (max-width: 390px) {
+
+    .searcher__form {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 380px) {
+
+    .searcher__form {
+        height: 128px;
+    }
+}

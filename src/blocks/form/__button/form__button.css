@@ -1,0 +1,41 @@
+.form__button {
+    width: 168px;
+    height: 64px;
+    background-color: #2F71E5;
+    border-radius: 100px;
+    border: none;
+    color: white;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+    cursor: url('../../../images/cursor.svg'), pointer;
+}
+
+.form__button:hover {
+    background-color: #347EFF;
+}
+
+.form__button:active {
+    background-color: #2A65CC;
+}
+
+.form__button:disabled {
+    background-color: grey;
+}
+
+@media screen and (max-width: 769px) {
+
+    .form__button {
+        width: 160px;
+        height: 58px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    .form__button {
+        left: 0;
+        bottom: 0;
+        width: 289px;
+    }
+}

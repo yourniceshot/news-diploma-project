@@ -1,9 +1,10 @@
-@import url('./pages-styles/about/blocks/client-article/client-article.css');
-@import url('./pages-styles/about/blocks/technologies/technologies.css');
-@import url('./pages-styles/about/blocks/commits/commits.css');
-@import url('./pages-styles/index/blocks/footer/footer.css');
-@import url('./pages-styles/index/blocks/searcher/header/header.css');
-@import url('./pages-styles/index/blocks/about-author/about-author.css');
+@import url('./blocks/client-article/client-article.css');
+@import url('./blocks/about-author/about-author.css');
+@import url('./blocks/commits/commits.css');
+@import url('./blocks/slider-card/slider-card.css');
+@import url('./blocks/header/header.css');
+@import url('./blocks/footer/footer.css');
+@import url('./blocks/technologies/technologies.css');
 
 @font-face {
     src: url('./fonts/roboto-medium-webfont.woff');

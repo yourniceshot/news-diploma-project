@@ -1,0 +1,10 @@
+.analytics-main__info-container {
+    margin-top: 24px;
+}
+
+@media screen and (max-width: 401px) {
+
+    .analytics-main__info-container {
+        margin-top: 16px;
+    }
+}

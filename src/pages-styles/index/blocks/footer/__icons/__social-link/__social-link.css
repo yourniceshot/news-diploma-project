@@ -1,7 +1,0 @@
-@import url('./_cat/_cat.css');
-
-.footer__social-link {
-    width: 24px;
-    height: 24px;
-    cursor: url('../../../../../../images/cursor.svg'), pointer;
-}

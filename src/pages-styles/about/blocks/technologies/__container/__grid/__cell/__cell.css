@@ -1,9 +1,0 @@
-@import url('./__grid-elem/__grid-elem.css');
-@import url('./__grid-icon/__grid-icon.css');
-
-.technologies__cell {
-    width: 90px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}

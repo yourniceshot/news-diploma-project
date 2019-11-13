@@ -1,9 +1,12 @@
-@import url('./pages-styles/index/blocks/searcher/searcher.css');
-@import url('./pages-styles/index/blocks/search-process/search-process.css');
-@import url('./pages-styles/index/blocks/no-results/no-results.css');
-@import url('./pages-styles/index/blocks/about-author/about-author.css');
-@import url('./pages-styles/index/blocks/footer/footer.css');
-@import url('./pages-styles/index/blocks/cards-container/cards-container.css');
+@import url('./blocks/about-author/about-author.css');
+@import url('./blocks/search-process/search-process.css');
+@import url('./blocks/cards-container/cards-container.css');
+@import url('./blocks/card/card.css');
+@import url('./blocks/searcher/searcher.css');
+@import url('./blocks/form/form.css');
+@import url('./blocks/header/header.css');
+@import url('./blocks/footer/footer.css');
+@import url('./blocks/no-results/no-results.css');
 
 .page {
     width: 100%;

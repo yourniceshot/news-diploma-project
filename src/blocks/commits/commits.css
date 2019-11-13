@@ -1,0 +1,27 @@
+@import url('./__arrow-disc/commits__arrow-disc.css');
+@import url('./__header/commits__header.css');
+@import url('./__icon/commits__icon.css');
+@import url('./__link-container/commits__link-container.css');
+@import url('./__link-mini/commits__link-mini.css');
+@import url('./__link/commits__link.css');
+@import url('./__slider/commits__slider.css');
+@import url('./__title/commits__title.css');
+
+.commits {
+    height: 556px;
+    background-color: #F5F6F7;
+    padding-top: 72px;
+    padding-bottom: 32px;
+}
+
+@media screen and (max-width: 800px) {
+    .commits {
+        height: 526px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .commits {
+        height: 568px;
+    }
+}

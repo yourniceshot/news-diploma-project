@@ -1,7 +1,7 @@
-@import url('./pages-styles/analytics/main/main.css');
-@import url('./pages-styles/analytics/analytics/analytics.css');
-@import url('./pages-styles/index/blocks/searcher/header/header.css');
-@import url('./pages-styles/index/blocks/footer/footer.css');
+@import url('./blocks/analytics-main/analytics-main.css');
+@import url('./blocks/analytics/analytics.css');
+@import url('./blocks/header/header.css');
+@import url('./blocks/footer/footer.css');
 
 @font-face {
     src: url('./fonts/roboto-medium-webfont.woff');

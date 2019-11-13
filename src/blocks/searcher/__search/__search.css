@@ -1,0 +1,32 @@
+.searcher__search {
+    width: 608px;
+    margin: auto
+}
+
+@media screen and (max-width: 769px) {
+
+    .searcher__search {
+        width: 448px;
+    }
+}
+
+@media screen and (max-width: 483px) {
+
+    .searcher__search {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+
+    .searcher__search {
+        width: 380px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+
+    .searcher__search {
+        width: 288px;
+    }
+}

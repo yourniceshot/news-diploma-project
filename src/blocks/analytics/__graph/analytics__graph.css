@@ -1,0 +1,11 @@
+.analytics__graph {
+    width: 86%;
+    margin: auto;
+}
+
+@media screen and (max-width: 770px) {
+
+    .analytics__graph {
+        width: 90%;
+    }
+}

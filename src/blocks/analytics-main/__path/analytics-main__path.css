@@ -1,0 +1,19 @@
+.analytics-main__path {
+    width: 350px;
+    height: 24px;
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 769px) {
+
+    .analytics-main__path {
+        margin-bottom: 64px;
+    }
+}
+
+@media screen and (max-width: 401px) {
+
+    .analytics-main__path {
+        display: none;
+    }
+}
