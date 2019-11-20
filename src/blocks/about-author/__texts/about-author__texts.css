@@ -1,19 +1,19 @@
 .about-author__texts {
-    width: 600px;
+    max-width: 600px;
     margin-top: 131px;
 }
 
-@media screen and (max-width: 1171px) {
+@media screen and (max-width: 1160px) {
 
     .about-author__texts {
-        width: 500px;
+        margin: 0 auto;
+        margin-top: 131px;
     }
 }
 
 @media screen and (max-width: 940px) {
 
     .about-author__texts {
-        width: 424px;
         margin-top: 40px;
     }
 }
@@ -21,7 +21,6 @@
 @media screen and (max-width: 451px) {
 
     .about-author__texts {
-        width: 288px;
         margin-top: 24px;
     }
 }

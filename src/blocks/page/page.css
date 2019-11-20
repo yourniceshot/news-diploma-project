@@ -17,8 +17,7 @@
 }
 
 .page {
-    width: 100%;
-    background-color: #ffffff;
+    max-width: 1440px;
     font-family: Roboto, Arial, Helvetica, sans-serif;
     margin: 0 auto;
 }

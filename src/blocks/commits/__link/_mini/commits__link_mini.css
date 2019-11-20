@@ -1,4 +1,4 @@
-.commits__link-mini {
+.commits__link_mini {
     width: 227px;
     height: 56px;
     border: 1px solid #1A1B22;
@@ -16,11 +16,11 @@
     margin: auto;
     margin-top: -88px;
     display: none;
-    cursor: url('../../../images/cursor.svg'), pointer;
+    cursor: url('../../../../images/cursor.svg'), pointer;
 }
 
 @media screen and (max-width: 600px) {
-    .commits__link-mini {
+    .commits__link_mini {
         display: flex;
     }
 }
