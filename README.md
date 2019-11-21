@@ -1,4 +1,4 @@
-# [NewsAnalyzer. Yandex.Praktikum Diploma Project](https://yourniceshot.github.io/news-diploma-project/)
+# [NewsAnalyzer. Yandex.Praktikum Diploma Project](https://yourniceshot.github.io/news-project/)
 ## by Anastasia Mednikova
 ver 0.1
 ## Description
