@@ -1,0 +1,42 @@
+.searcher__form {
+    max-width: 608px;
+    margin-top: 64px;
+}
+
+@media screen and (max-width: 769px) {
+
+    .searcher__form {
+        margin-top: 24px;
+        width: 460px;
+    }
+}
+
+@media screen and (max-width: 483px) {
+
+    .searcher__form {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+    .searcher__form {
+        width: 380px;
+    }
+}
+
+
+@media screen and (max-width: 390px) {
+
+    .searcher__form {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 380px) {
+
+    .searcher__form {
+        height: 128px;
+    }
+}

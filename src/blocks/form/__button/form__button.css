@@ -31,11 +31,12 @@
     }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 520px) {
 
     .form__button {
-        left: 0;
-        bottom: 0;
-        width: 289px;
+        position: static;
+        width: 90%;
+        margin: 0 auto;
+        display: block;
     }
 }

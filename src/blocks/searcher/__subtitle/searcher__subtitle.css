@@ -1,5 +1,5 @@
 .searcher__subtitle {
-    width: 580px;
+    max-width: 580px;
     font-family: Roboto;
     font-weight: normal;
     font-size: 18px;
@@ -12,22 +12,7 @@
 @media screen and (max-width: 769px) {
 
     .searcher__subtitle {
-        width: 452px;
         margin-top: 16px;
-    }
-}
-
-@media screen and (max-width: 483px) {
-
-    .searcher__subtitle {
-        width: 400px;
-    }
-}
-
-@media screen and (max-width: 410px) {
-
-    .searcher__subtitle {
-        width: 380px;
     }
 }
 
@@ -36,7 +21,6 @@
     .searcher__subtitle {
         font-size: 20px;
         line-height: 26px;
-        width: 288px;
         margin-top: 56px;
     }
 }

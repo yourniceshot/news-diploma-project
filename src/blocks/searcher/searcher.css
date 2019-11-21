@@ -1,6 +1,7 @@
-@import url('./__search/__search.css');
-@import url('./__subtitle/__subtitle.css');
-@import url('./__title/__title.css');
+@import url('./__form/searcher__form.css');
+@import url('./__search/searcher__search.css');
+@import url('./__subtitle/searcher__subtitle.css');
+@import url('./__title/searcher__title.css');
 
 .searcher {
     width: 100%;

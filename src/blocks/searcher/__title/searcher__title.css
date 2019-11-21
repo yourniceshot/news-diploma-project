@@ -1,5 +1,5 @@
 .searcher__title {
-    width: 590px;
+    max-width: 590px;
     font-family: Roboto Slab;
     font-size: 60px;
     line-height: 64px;
@@ -12,7 +12,6 @@
 @media screen and (max-width: 769px) {
 
     .searcher__title {
-        width: 380px;
         font-size: 36px;
         line-height: 40px;
         margin-top: 40px;
@@ -23,7 +22,6 @@
 @media screen and (max-width: 380px) {
 
     .searcher__title {
-        width: 285px;
         margin-top: 30px;
     }
 }
