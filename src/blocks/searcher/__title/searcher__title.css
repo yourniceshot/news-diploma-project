@@ -12,6 +12,7 @@
 @media screen and (max-width: 769px) {
 
     .searcher__title {
+        max-width: 380px;
         font-size: 36px;
         line-height: 40px;
         margin-top: 40px;
@@ -22,6 +23,7 @@
 @media screen and (max-width: 380px) {
 
     .searcher__title {
+        max-width: 285px;
         margin-top: 30px;
     }
 }

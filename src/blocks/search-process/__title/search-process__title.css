@@ -1,5 +1,5 @@
 .search-process__title {
-    width: 197px;
+    max-width: 197px;
     font-family: Roboto;
     font-weight: normal;
     font-size: 18px;

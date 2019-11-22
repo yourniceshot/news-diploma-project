@@ -2,7 +2,7 @@
 @import url('./__title/search-process__title.css');
 
 .search-process {
-    width: 100%;
+    max-width: 100%;
     background-color: #F5F6F7;
     margin-top: 0;
     padding-top: 80px;
