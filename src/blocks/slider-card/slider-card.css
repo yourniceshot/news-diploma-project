@@ -1,0 +1,31 @@
+@import url('./__article/slider-card__article.css');
+@import url('./__date/slider-card__date.css');
+@import url('./__email/slider-card__email.css');
+@import url('./__name/slider-card__name.css');
+@import url('./__photo/slider-card__photo.css');
+@import url('./__user-info/slider-card__user-info.css');
+@import url('./__user/slider-card__user.css');
+
+.slider-card {
+    width: 400px;
+    background-color: white;
+    border-radius: 16px;
+    padding-top: 24px;
+    padding-left: 24px;
+    margin-right: 16px;
+    padding-bottom: 58px;
+    cursor: url('../../images/cursor.svg'), pointer;
+}
+
+@media screen and (max-width: 1210px) {
+    .slider-card {
+        width: 310px;
+        padding-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .slider-card {
+        padding-bottom: 0;
+    }
+}

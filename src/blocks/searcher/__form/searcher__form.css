@@ -1,0 +1,20 @@
+.searcher__form {
+    max-width: 608px;
+    position: relative;
+    margin-top: 64px;
+}
+
+@media screen and (max-width: 769px) {
+
+    .searcher__form {
+        margin-top: 24px;
+        max-width: 460px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .searcher__form {
+        margin-top: 44px;
+    }
+}

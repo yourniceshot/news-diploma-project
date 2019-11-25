@@ -1,0 +1,26 @@
+.about-author__texts {
+    max-width: 600px;
+    margin-top: 131px;
+}
+
+@media screen and (max-width: 1160px) {
+
+    .about-author__texts {
+        margin: 0 auto;
+        margin-top: 131px;
+    }
+}
+
+@media screen and (max-width: 940px) {
+
+    .about-author__texts {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 451px) {
+
+    .about-author__texts {
+        margin-top: 24px;
+    }
+}

@@ -1,0 +1,43 @@
+.about-author__container {
+    max-width: 1120px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 104px; 
+}
+
+@media screen and (max-width: 1241px) {
+
+    .about-author__container {
+        margin-left: 23px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+
+    .about-author__container {
+       margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+
+    .about-author__container {
+       margin: auto;
+    }
+}
+
+@media screen and (max-width: 710px) {
+
+    .about-author__container {
+       flex-direction: column;
+       align-items: center;
+    }
+}
+
+@media screen and (max-width: 501px) {
+
+    .about-author__container {
+       flex-direction: column;
+       align-items: center;
+    }
+}

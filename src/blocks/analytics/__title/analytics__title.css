@@ -1,0 +1,18 @@
+.analytics__title {
+    margin: 0;
+    max-width: 300px;
+    height: 30px;
+    font-family: Roboto Slab;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #1A1B22;
+}
+
+@media screen and (max-width: 401px) {
+
+    .analytics__title {
+        font-size: 22px;
+        line-height: 30px;
+    }
+}

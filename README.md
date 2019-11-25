@@ -1,4 +1,4 @@
-# [NewsAnalyzer. Yandex.Praktikum Diploma Project](https://yourniceshot.github.io/news-diploma-project/)
+# [NewsAnalyzer. Yandex.Praktikum Diploma Project](https://yourniceshot.github.io/news-project/)
 ## by Anastasia Mednikova
 ver 0.1
 ## Description
@@ -20,5 +20,5 @@ Main: HTML3, CSS5, JS, Git, GitHub, Webpack; for layout: flexbox and greed layou
 
 ## Additional information 
 
-- Project version is 0.1.3;
+- Project version is 0.1;
 - The current version of the project is available [here](https://github.com/yourniceshot/news-diploma-project).

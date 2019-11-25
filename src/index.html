@@ -23,9 +23,9 @@
             <div class="searcher__search">
                 <h1 class="searcher__title">Что в мире творится?</h1>
                 <h3 class="searcher__subtitle">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за прошедшую неделю.</h3>
-                <form class="searcher__form" name="search">
-                    <input style="padding-left: 24px" type="text" name="request" class="form-input" placeholder="Введите тему новости" required>
-                    <button class="form-button">Искать</button>
+                <form class="searcher__form form" name="search">
+                    <input style="padding-left: 24px" type="text" name="request" class="form__input" placeholder="Введите тему новости" required>
+                    <button class="form__button" name="button">Искать</button>
                 </form>
             </div>
         </div>
@@ -102,8 +102,8 @@
         <div class="about-author">
             <div class="about-author__container">
                 <picture class="about-author__photos">
-                    <img srcset="<%=require('./images/FullSizeRender-2.jpg')%>" alt="default author photo" class="about-author__photo">
                     <source srcset="<%=require('./images/author-photo.png')%>" media="(max-width: 768px)" class="about-author__photo">
+                    <img src="<%=require('./images/FullSizeRender-2.jpg')%>" alt="default author photo" class="about-author__photo">
                 </picture>
                 <div class="about-author__texts">
                     <h2 class="about-author__title">Об авторе</h2>
@@ -122,7 +122,7 @@
                     <a href="https://praktikum.yandex.ru" class="footer__menu-item" target="_blank">Яндекс.Практикум</a>
                 </div>
             </div>
-            <div class="footer__icons">
+            <div class="footer__social">
                     <a href="https://github.com/yourniceshot" class="footer__social-link footer__social-link_cat" target="_blank"><img src="<%=require('./images/github.png')%>" alt="github icon" class="footer__icon"></a>
                     <a href="https://www.facebook.com/profile.php?id=100004300862534" class="footer__social-link" target="_blank"><img src="<%=require('./images/fb.png')%>" alt="facebook icon" class="footer__icon"></a>
             </div>
