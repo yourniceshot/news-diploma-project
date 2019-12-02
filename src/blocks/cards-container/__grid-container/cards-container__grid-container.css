@@ -41,6 +41,6 @@
 @media screen and (max-width: 429px) {
 
     .cards-container__grid-container {
-        width: 90%;
+        width: 100%;
     }
 }

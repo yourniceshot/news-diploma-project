@@ -1,5 +1,5 @@
-.no-results__title {
-    width: 260px;
+.error-message__title {
+    max-width: 510px;
     color: #1A1B22;
     font-family: Roboto Slab;
     font-weight: normal;
@@ -10,10 +10,10 @@
     margin-bottom: 16px;
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 540px) {
 
-    .no-results__title {
-        width: 200px;
-        font-size: 20px;
+    .error-message__title {
+        width: 85%;
+        text-align: center;
     }
 }
