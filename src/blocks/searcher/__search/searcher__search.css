@@ -10,3 +10,9 @@
     }
 }
 
+@media screen and (max-width: 460px) {
+
+    .searcher__search {
+        width: 90%;
+    }
+}

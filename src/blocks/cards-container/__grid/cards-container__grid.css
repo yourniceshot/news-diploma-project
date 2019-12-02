@@ -72,7 +72,7 @@
 @media screen and (max-width: 429px) {
 
     .cards-container__grid {
-        width: 85%;
+        width: 89%;
         grid-template-columns: repeat(auto-fill, 288px);
     }
 }

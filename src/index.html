@@ -29,16 +29,16 @@
                 </form>
             </div>
         </div>
-        <div class="search-process">
-            <i class="search-process__circle-preloader"></i>
-            <h4 class="search-process__title">Идет поиск новостей...</h4>
-        </div>
         <div class="no-results">
             <div class="no-results__container">
                 <img class="no-results__image" src="<%=require('./images/ill.svg')%>" alt="sad magnifying glass">
                 <h3 class="no-results__title">Ничего не найдено</h3>
                 <h4 class="no-results__subtitle">К сожалению, по вашему запросу ничего не найдено.</h4>
             </div>
+        </div>
+        <div class="error-message">
+            <h3 class="error-message__title">Во время запроса произошла ошибка.</h3>
+            <h4 class="error-message__subtitle">Возможно, проблема с соединением или сервер недоступен. Подождите немного и попробуйте ещё раз.</h4>
         </div>
         <div class="cards-container">
             <div class="cards-container__header">
@@ -47,6 +47,10 @@
                     <a href="./analytics.html" class="cards-container__link">Посмотреть аналитику</a>
                     <img class="cards-container__icon" src="<%=require('./images/back.svg')%>" alt="arrow icon">
                 </div>
+            </div>
+            <div class="search-process">
+                <i class="search-process__circle-preloader"></i>
+                <h4 class="search-process__title">Идет поиск новостей...</h4>
             </div>
             <div class="cards-container__grid-container">
                 <div class="cards-container__grid">
