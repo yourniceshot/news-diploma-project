@@ -6,6 +6,7 @@
 @import url('./__link-container/cards-container__link-container.css');
 @import url('./__link/cards-container__link.css');
 @import url('./__title/cards-container__title.css');
+@import url('./__card/cards-container__card.css');
 
 .cards-container {
     width: 100%;
