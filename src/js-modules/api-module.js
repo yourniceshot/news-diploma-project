@@ -10,7 +10,7 @@ export class Api {
             `qInTitle=${request}&` +
             `from=${dateFrom}&` +
             `to=${dateTo}&` +
-            "sortBy=popularity&" +
+            "sortBy=publishedAt&" +
             "language=ru&" +
             "pageSize=100&" +
             `apiKey=${this.apiKey}`

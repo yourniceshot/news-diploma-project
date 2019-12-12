@@ -9,11 +9,11 @@
 
 .cards-container {
     width: 100%;
-    min-height: 974px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     background-color: #F5F6F7;
+    padding-bottom: 80px;
     display: none;
 }
