@@ -7,7 +7,7 @@
     <meta name="description" content="Главная страница сайта с поиском статистики по количеству новостей за прошедшую неделю">
     <meta name="author" lang="ru" content="Анастасия Медникова">
     <title>NewsAnalyzer</title>
-    <link rel="stylesheet" href="./styles/main.a88978780bc38c514676.css">
+    <link rel="stylesheet" href="./styles/main.561f1c99558d3ee45742.css">
     <link rel="shortcut icon" href="./images/favicon.png">
 </head>
 <body>
@@ -25,13 +25,9 @@
                 <h3 class="searcher__subtitle">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за прошедшую неделю.</h3>
                 <form class="searcher__form form" name="search">
                     <input style="padding-left: 24px" type="text" name="request" class="form__input" placeholder="Введите тему новости" required>
-                    <button class="form__button">Искать</button>
+                    <button class="form__button" name="button">Искать</button>
                 </form>
             </div>
-        </div>
-        <div class="search-process">
-            <i class="search-process__circle-preloader"></i>
-            <h4 class="search-process__title">Идет поиск новостей...</h4>
         </div>
         <div class="no-results">
             <div class="no-results__container">
@@ -39,6 +35,14 @@
                 <h3 class="no-results__title">Ничего не найдено</h3>
                 <h4 class="no-results__subtitle">К сожалению, по вашему запросу ничего не найдено.</h4>
             </div>
+        </div>
+        <div class="error-message">
+            <h3 class="error-message__title">Во время запроса произошла ошибка.</h3>
+            <h4 class="error-message__subtitle">Возможно, проблема с соединением или сервер недоступен. Подождите немного и попробуйте ещё раз.</h4>
+        </div>
+        <div class="search-process">
+            <i class="search-process__circle-preloader"></i>
+            <h4 class="search-process__title">Идет поиск новостей...</h4>
         </div>
         <div class="cards-container">
             <div class="cards-container__header">
