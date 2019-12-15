@@ -1,0 +1,20 @@
+@import url('./__button/cards-container__button.css');
+@import url('./__grid-container/cards-container__grid-container.css');
+@import url('./__grid/cards-container__grid.css');
+@import url('./__header/cards-container__header.css');
+@import url('./__icon/cards-container__icon.css');
+@import url('./__link-container/cards-container__link-container.css');
+@import url('./__link/cards-container__link.css');
+@import url('./__title/cards-container__title.css');
+@import url('./__card/cards-container__card.css');
+
+.cards-container {
+    width: 100%;
+    min-height: 974px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5F6F7;
+    display: none;
+}

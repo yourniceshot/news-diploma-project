@@ -1,0 +1,18 @@
+.header__menu-link_inactive {
+    color: #B6BCBF;
+}
+
+.header__menu-link_inactive:hover {
+    color: white;
+}
+
+.header__menu-link_inactive-black:hover {
+    color: #1A1B22
+}
+
+@media screen and (max-width: 537px) {
+
+    .header__menu-link_inactive {
+        font-size: 16px;
+    }
+}

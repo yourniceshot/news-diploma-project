@@ -1,0 +1,16 @@
+.slider-card__name {
+    width: 296px;
+    min-height: 30px;
+    font-family: Roboto Slab;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #1A1B22;
+}
+
+@media screen and (max-width: 1210px) {
+    .slider-card__name {
+        width: 206px;
+        margin-bottom: 30px;
+    }
+}

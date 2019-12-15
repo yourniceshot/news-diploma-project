@@ -1,0 +1,19 @@
+.analytics__bar {
+    height: 24px;
+    background-color: #2F71E5;
+    color: white;
+    margin-bottom: 56px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    padding-left: 6px;
+}
+
+.analytics__bar:last-of-type {
+    margin-bottom: 0;
+}

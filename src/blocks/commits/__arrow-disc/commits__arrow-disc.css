@@ -1,0 +1,15 @@
+.commits__arrow-disc {
+    width: 40px;
+    height: 40px;
+    background: #1A1B22;
+    border-radius: 50%;
+    position: absolute;
+    top: 146px;
+    padding-top: 13px;
+}
+
+@media screen and (max-width: 800px) {
+    .commits__arrows {
+        display: none;
+    }
+}

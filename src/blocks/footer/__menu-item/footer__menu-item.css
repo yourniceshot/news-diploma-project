@@ -1,0 +1,14 @@
+.footer__menu-item {
+    font-size: 18px;
+    line-height: 24px;
+    color: #1A1B22;
+    font-family: Roboto;
+    font-weight: normal;
+    text-decoration: none;
+    text-align: center;
+    cursor: url('../../../images/cursor.svg'), pointer;
+}
+
+.footer__menu-item:hover {
+    opacity: 0.4;
+}

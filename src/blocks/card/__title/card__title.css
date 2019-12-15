@@ -1,0 +1,49 @@
+.card__title {
+    width: 352px;
+    min-height: 60px;
+    font-family: Roboto Slab;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #1A1B22;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 916px) {
+
+    .card__title {
+        width: 260px;
+        font-size: 22px;
+        line-height: 22px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .card__title {
+        width: 192px;
+        height: 72px;
+        font-size: 22px;
+        line-height: 24px;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 543px) {
+
+    .card__title {
+        width: 352px;
+    }
+}
+
+@media screen and (max-width: 429px) {
+
+    .card__title {
+        width: 260px;
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+}
