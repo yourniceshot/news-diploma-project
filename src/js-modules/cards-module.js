@@ -2,16 +2,16 @@ import { monthList } from './time-module.js';
 import { showMoreBtn } from './form-module.js';
 
 class Card {
-    constructor(image, date, title, article, source) {
-        this.cardElement = this.cardRender(image, date, title, article, source)
+    constructor(image, date, title, article, source, url) {
+        this.cardElement = this.cardRender(image, date, title, article, source, url)
     }
 
-    cardRender(imageValue, dateValue, titleValue, articleValue, sourceValue) {
+    cardRender(imageValue, dateValue, titleValue, articleValue, sourceValue, urlValue) {
 
         const newsCard = document.createElement('div');
         newsCard.classList.add('card');
         newsCard.classList.add('cards-container__card');
-        newsCard.setAttribute('onclick', "location.href = 'https://newsapi.org'");
+        newsCard.setAttribute('onclick', `location.href = ${urlValue}`);
     
         const cardImage = document.createElement('img');
         cardImage.classList.add('card__image');
@@ -55,8 +55,8 @@ export class CardList {
         this.render();
     }
 
-    addCard(image, date, title, article, source) {
-        const { cardElement } = new Card(image, date, title, article, source);
+    addCard(image, date, title, article, source, url) {
+        const { cardElement } = new Card(image, date, title, article, source, url);
         this.container.appendChild(cardElement);
     }
 
@@ -82,7 +82,8 @@ export class CardList {
             textFormatted = textTransformed.join(' ');
             const finalText = textFormatted+'...';
 
-            this.addCard(card.urlToImage, finalDate, finalTitle, finalText, card.source.name);
+            localStorage.setItem('date', dateToFormat);
+            this.addCard(card.urlToImage, finalDate, finalTitle, finalText, card.source.name, card.url);
             CardList.showRenderCard();
         })
     }

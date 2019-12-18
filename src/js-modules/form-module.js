@@ -36,7 +36,7 @@ form.addEventListener('submit', function(event){
             cardListTitle.style.display = "none";
             showMoreBtn.style.display = "none";
             
-        } else if (data.articles.length < 3) {
+        } else if (data.articles.length <= 3) {
             cardList = new CardList(newsList, data);
             cardsContainer.style.display = "flex";
             linkToAnalytics.style.display = "flex";
@@ -57,4 +57,13 @@ form.addEventListener('submit', function(event){
     .finally(() => {
         renderLoading(false);
     });
+
+    api.newsSearchingWhole(formInput.value, dateFrom.toISOString(), dateTo.toISOString()) 
+    .then((result) => {
+        const resultToStorage = JSON.stringify(result);
+        localStorage.setItem('news', resultToStorage);
+    })
+    .catch((err) => {
+        console.log(err);
+    })
 });

@@ -1,9 +1,8 @@
 .analytics__info {
-    width: 253px;
-    height: 30px;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
     margin-top: 48px;
 }
 
@@ -12,4 +11,13 @@
     .analytics__info {
         margin-top: 16px;
     }
+}
+
+.analytics__info::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    display: block;
+    background: #B6BCBF;
+    margin-top: 20px;
 }
