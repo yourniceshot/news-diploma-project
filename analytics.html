@@ -6,7 +6,7 @@
     <meta name="description" content="Страница с новостной аналитикой">
     <meta name="author" lang="ru" content="Анастасия Медникова">
     <title>Analytics - NewsAnalyzer</title>
-    <link rel="stylesheet" href="./styles/analytics.eb35211febd790451bc8.css">
+    <link rel="stylesheet" href="./styles/analytics.ef051ff3aebbdc776372.css">
     <link rel="shortcut icon" href="./images/favicon.png">
 </head>
 <body>
@@ -24,15 +24,15 @@
                     <a href="./index.html" class="analytics-main__path-link">Главная</a>
                     <span class="analytics-main__path-place">/ Аналитика</span>
                 </div>
-                <h2 class="analytics-main__title">Вы спросили:</h2>
+                <h2 class="analytics-main__title"></h2>
                 <div class="analytics-main__info-container">
                     <div class="analytics-main__info-string">
                         <span class="analytics-main__subtitle">Новостей за неделю:</span>
-                        <span class="analytics-main__amount">25 436</span>
+                        <span class="analytics-main__amount" id="amount1"></span>
                     </div>
                     <div class="analytics-main__info-string">
                         <span class="analytics-main__subtitle">Упоминаний в заголовках:</span>
-                        <span class="analytics-main__amount">354</span>
+                        <span class="analytics-main__amount" id="amount2"></span>
                     </div>
                 </div>
             </div>
@@ -41,7 +41,7 @@
             <div class="analytics__graph">
                 <h2 class="analytics__title">Аналитика по дням</h2>
                 <div class="analytics__info">
-                    <div class="analytics__info-date">Дата (август)</div>
+                    <div class="analytics__info-date"></div>
                     <div class="analytics__info-amount">Кол-во упоминаний</div>
                 </div>
                 <div class="analytics__line-digits analytics__line-digits_top">
@@ -53,22 +53,22 @@
                 </div>
                 <div class="analytics__diagramm">
                     <div class="analytics__days">
-                        <div class="analytics__date">19, пн</div>
-                        <div class="analytics__date">20, вт</div>
-                        <div class="analytics__date">21, ср</div>
-                        <div class="analytics__date">22, чт</div>
-                        <div class="analytics__date">23, пт</div>
-                        <div class="analytics__date">24, сб</div>
-                        <div class="analytics__date">25, вс</div>
+                        <div class="analytics__date day-0"></div>
+                        <div class="analytics__date day-1"></div>
+                        <div class="analytics__date day-2"></div>
+                        <div class="analytics__date day-3"></div>
+                        <div class="analytics__date day-4"></div>
+                        <div class="analytics__date day-5"></div>
+                        <div class="analytics__date day-6"></div>
                     </div>
                     <div class="analytics__bars">
-                        <div class="analytics__bar" style="width:10%">10</div>
-                        <div class="analytics__bar" style="width:25%">25</div>
-                        <div class="analytics__bar" style="width:30%">30</div>
-                        <div class="analytics__bar" style="width:12%">12</div>
-                        <div class="analytics__bar" style="width:34%">34</div>
-                        <div class="analytics__bar" style="width:73%">73</div>
-                        <div class="analytics__bar" style="width:9%">9</div>
+                        <div class="analytics__bar bar-0"></div>
+                        <div class="analytics__bar bar-1"></div>
+                        <div class="analytics__bar bar-2"></div>
+                        <div class="analytics__bar bar-3"></div>
+                        <div class="analytics__bar bar-4"></div>
+                        <div class="analytics__bar bar-5"></div>
+                        <div class="analytics__bar bar-6"></div>
                     </div>
                 </div>
                 <div class="analytics__line-digits">
@@ -95,6 +95,6 @@
                 </div>
             </footer>
     </div>
-    <script src="analytics.c3e8ca6e8d71f9452c67.js"></script>
+    <script src="analytics.a65e1954404ea887d6e0.js"></script>
 </body>
 </html>
