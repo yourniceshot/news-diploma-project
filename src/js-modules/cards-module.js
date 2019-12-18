@@ -11,7 +11,7 @@ class Card {
         const newsCard = document.createElement('div');
         newsCard.classList.add('card');
         newsCard.classList.add('cards-container__card');
-        newsCard.setAttribute('onclick', `location.href = ${urlValue}`);
+        newsCard.setAttribute('onclick', `location.href = "${urlValue}"`);
     
         const cardImage = document.createElement('img');
         cardImage.classList.add('card__image');

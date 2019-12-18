@@ -14,6 +14,8 @@ import { dateFrom } from './time-module.js';
 export const newsList = document.querySelector('.cards-container__grid');
 export const showMoreBtn = document.querySelector('.cards-container__button');
 
+form.reset();
+
 form.addEventListener('submit', function(event){
     event.preventDefault();
     renderLoading(true);

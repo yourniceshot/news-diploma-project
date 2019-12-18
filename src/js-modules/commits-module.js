@@ -4,11 +4,11 @@ import Glide from '../../node_modules/@glidejs/glide';
 import { monthList } from './time-module.js';
 
 class CommitCard {
-    constructor(date, name, email, note) {
-        this.cardElement = this.commitCardRender(date, name, email, note);
+    constructor(date, photo, name, email, note) {
+        this.cardElement = this.commitCardRender(date, photo, name, email, note);
     }
 
-    commitCardRender(dateValue, nameValue, emailValue, noteValue) {
+    commitCardRender(dateValue, photoValue, nameValue, emailValue, noteValue) {
 
         const commitCard = document.createElement('li');
         commitCard.classList.add('slider-card');
@@ -18,6 +18,7 @@ class CommitCard {
         const cardPhoto = document.createElement('img');
         cardPhoto.classList.add('slider-card__photo');
         cardPhoto.setAttribute('alt', 'user photo');
+        cardPhoto.setAttribute('src', photoValue);
     
         const cardUser = document.createElement('div');
         cardUser.classList.add('slider-card__user');
@@ -60,8 +61,8 @@ class CommitsList {
         this.render();
     }
 
-    addCommit(date, name, email, note) {
-        const { cardElement } = new CommitCard(date, name, email, note);
+    addCommit(date, photo, name, email, note) {
+        const { cardElement } = new CommitCard(date, photo, name, email, note);
         this.container.appendChild(cardElement);
     }
 
@@ -73,7 +74,7 @@ class CommitsList {
             const date = dateToFormat.getDate();
             const finalDate = `${date} ${monthList[month]}, ${year}`;
 
-            this.addCommit(finalDate, item.commit.committer.name, item.commit.committer.email, item.commit.message);
+            this.addCommit(finalDate, item.author.avatar_url, item.commit.committer.name, item.commit.committer.email, item.commit.message);
             CommitsList.createGlide();
         })
     }
