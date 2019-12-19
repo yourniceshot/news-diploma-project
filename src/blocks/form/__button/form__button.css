@@ -21,6 +21,7 @@
 
 .form__button:disabled {
     background-color: grey;
+    cursor: default;
 }
 
 @media screen and (max-width: 769px) {

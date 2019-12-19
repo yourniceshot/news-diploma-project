@@ -1,5 +1,5 @@
 import { api } from './api-module.js';
-import { CardList } from './cards-module.js';
+import { CardList } from './card-list-module.js';
 export const form = document.querySelector('.searcher__form');
 export const formInput = form.elements.request;
 import { renderLoading } from './loader-module.js';
