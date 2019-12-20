@@ -2,7 +2,7 @@ const analyticsTitle = document.querySelector('.analytics-main__title');
 const newsPerWeek = document.getElementById('amount1');
 const titlesPerWeek = document.getElementById('amount2');
 const lsRequest = localStorage.getItem('request');
-import { weekDayList } from './time-module.js';
+import { weekDaysList } from './time-module.js';
 const storageParsed = JSON.parse(localStorage.getItem('news'));
 import { monthesForDiagramm } from './time-module.js';
 const diagrammDate = document.querySelector('.analytics__info-date');
@@ -50,7 +50,7 @@ class Statistics {
         const dayMs = i * 24 * 60 * 60 * 1000;
         const date = new Date(weekAgo.getTime() + dayMs);
         const day = date.getDate();
-        const wday = weekDayList[`${date.getDay()}`].toLowerCase();
+        const wday = weekDaysList[`${date.getDay()}`].toLowerCase();
   
         document.querySelector(`.day-${i}`).textContent = `${day}, ${wday}`;
   

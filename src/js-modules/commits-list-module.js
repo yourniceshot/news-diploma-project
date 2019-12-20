@@ -1,7 +1,7 @@
 const commitsContainer = document.querySelector('.commits__slider');
 import { gitHubApi } from './github-api-module.js';
 import Glide from '../../node_modules/@glidejs/glide';
-import { monthList } from './time-module.js';
+import { monthesList } from './time-module.js';
 import { CommitCard } from './commits-module.js';
 
 class CommitsList {
@@ -22,7 +22,7 @@ class CommitsList {
             const year = dateToFormat.getFullYear();
             const month = dateToFormat.getMonth();
             const date = dateToFormat.getDate();
-            const finalDate = `${date} ${monthList[month]}, ${year}`;
+            const finalDate = `${date} ${monthesList[month]}, ${year}`;
 
             this.addCommit(finalDate, item.author.avatar_url, item.commit.committer.name, item.commit.committer.email, item.commit.message);
             CommitsList.createGlide();

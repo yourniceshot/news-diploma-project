@@ -1,4 +1,4 @@
-import { monthList } from './time-module.js';
+import { monthesList } from './time-module.js';
 import { showMoreBtn } from './form-module.js';
 import { Card } from './cards-module.js';
 
@@ -20,7 +20,7 @@ export class CardList {
             const year = dateToFormat.getFullYear();
             const month = dateToFormat.getMonth();
             const date = dateToFormat.getDate();
-            const finalDate = `${date} ${monthList[month]}, ${year}`;
+            const finalDate = `${date} ${monthesList[month]}, ${year}`;
 
             const titleToCut = card.title;
             let titleFormatted = titleToCut.slice(0,45);
@@ -30,14 +30,19 @@ export class CardList {
             const finalTitle = titleFormatted+'...';
 
             const textToCut = card.description;
-            let textFormatted = textToCut.slice(0,140);
-            let textTransformed = textFormatted.split(' ');
-            textTransformed.splice(textTransformed.length-1,1);
-            textFormatted = textTransformed.join(' ');
-            const finalText = textFormatted+'...';
+            if (textToCut !== null){
+              let textFormatted = textToCut.slice(0,140);
+              let textTransformed = textFormatted.split(' ');
+              textTransformed.splice(textTransformed.length-1,1);
+              textFormatted = textTransformed.join(' ');
+              const finalText = textFormatted+'...';
+              this.addCard(card.urlToImage, finalDate, finalTitle, finalText, card.source.name, card.url);
+            } else {
+              const textPlaceholder = ' ';
+              this.addCard(card.urlToImage, finalDate, finalTitle, textPlaceholder, card.source.name, card.url);
+            }
 
             localStorage.setItem('date', dateToFormat);
-            this.addCard(card.urlToImage, finalDate, finalTitle, finalText, card.source.name, card.url);
             CardList.showRenderCard();
         })
     }
@@ -56,8 +61,8 @@ export class CardList {
     static showMore(event) {
         event.preventDefault();
     
-        const on = document.querySelectorAll(".cards-opened");
-        let next = on[on.length - 1].nextElementSibling;
+        const cardsOpened = document.querySelectorAll(".cards-opened");
+        let next = cardsOpened[cardsOpened.length - 1].nextElementSibling;
         let index = 0;
         const step = 3;
     

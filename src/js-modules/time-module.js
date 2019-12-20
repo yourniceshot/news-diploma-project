@@ -2,7 +2,7 @@ const weekAgo = 518400000;
 export const dateTo = new Date();
 export const dateFrom = new Date(new Date().getTime() - weekAgo);
 
-export const monthList = {
+export const monthesList = {
   0: "января",
   1: "февраля",
   2: "марта",
@@ -32,4 +32,4 @@ export const monthesForDiagramm = {
   11: "декабрь"
 };
 
-export const weekDayList = ["ВС", "ПН", "ВТ", "СР", "ЧТ", "ПТ", "СБ"];
+export const weekDaysList = ["ВС", "ПН", "ВТ", "СР", "ЧТ", "ПТ", "СБ"];
