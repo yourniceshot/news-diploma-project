@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: center;
     margin-right: 104px;
+    display: none;
 }
 
 .cards-container__link-container:hover{

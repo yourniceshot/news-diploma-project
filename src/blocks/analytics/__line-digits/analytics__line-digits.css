@@ -1,9 +1,6 @@
-@import url('./__line-digits_top/analytics__line-digits_top.css');
-
 .analytics__line-digits {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     margin-left: 104px;
 }
 

@@ -3,8 +3,7 @@
     height: 64px;
     border-radius: 80px;
     background-color: white;
-    margin-bottom: 80px;
-    cursor: pointer;
+    cursor: url('../../../images/cursor.svg'), pointer;
     margin-top: 64px;
     border: none;
 }

@@ -5,10 +5,12 @@
 
 .searcher {
     width: 100%;
-    min-height: 576px;
+    height: 576px;
     background-image: url('../../images/georgia-de-lotz--UsJoNxLaNo-unsplash.png');
     background-size: cover;
     background-position: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 @media screen and (max-width: 769px) {
@@ -18,7 +20,7 @@
     }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 520px) {
 
     .searcher {
         height: 536px;
