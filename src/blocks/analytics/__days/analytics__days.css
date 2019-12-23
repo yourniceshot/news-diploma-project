@@ -1,0 +1,7 @@
+.analytics__days {
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -29px;
+}

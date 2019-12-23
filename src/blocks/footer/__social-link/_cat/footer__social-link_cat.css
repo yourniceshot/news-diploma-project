@@ -1,0 +1,10 @@
+.footer__social-link_cat {
+    margin-right: 28px;
+}
+
+@media screen and (max-width: 451px) {
+
+    .footer__social-link_cat {
+        margin-right: 21px;
+    }
+}

@@ -1,0 +1,23 @@
+.analytics__info {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+    margin-top: 48px;
+}
+
+@media screen and (max-width: 401px) {
+
+    .analytics__info {
+        margin-top: 16px;
+    }
+}
+
+.analytics__info::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    display: block;
+    background: #B6BCBF;
+    margin-top: 20px;
+}

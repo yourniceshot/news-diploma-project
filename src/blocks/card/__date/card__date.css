@@ -1,0 +1,29 @@
+.card__date {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #B6BCBF;
+    margin-bottom: 12px;
+}
+
+@media screen and (max-width: 916px) {
+
+    .card__date {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    .card__date {
+        margin-bottom: 12px;
+    }
+}
+
+@media screen and (max-width: 429px) {
+
+    .card__date {
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,18 @@
+.error-message__subtitle {
+    max-width: 540px;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #B6BCBF;
+    margin: auto;
+    text-align: center;
+    margin-top: 0;
+}
+
+@media screen and (max-width: 540px) {
+
+    .error-message__subtitle {
+        width: 85%;
+    }
+}

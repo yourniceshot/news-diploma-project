@@ -1,0 +1,11 @@
+.no-results__container {
+    width: 356px;
+    margin: auto;
+}
+
+@media screen and (max-width: 380px) {
+
+    .no-results__container {
+        width: 300px;
+    }
+}
