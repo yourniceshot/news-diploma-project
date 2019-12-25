@@ -1,10 +1,8 @@
-const commitsContainer = document.querySelector('.commits__slider');
-import { gitHubApi } from './github-api-module.js';
 import Glide from '../../node_modules/@glidejs/glide';
 import { monthesList } from './time-module.js';
 import { CommitCard } from './commits-module.js';
 
-class CommitsList {
+export class CommitsList {
     constructor(container, data) {
         this.container = container;
         this.data = data;
@@ -65,11 +63,3 @@ class CommitsList {
         glide.mount();
     }
 }
-
-let commitsList;
-gitHubApi.getCommits() 
-.then((result) => {
-    commitsList = new CommitsList(commitsContainer, result)
-    console.log(result);
-})
-.catch((err) => console.log(err));

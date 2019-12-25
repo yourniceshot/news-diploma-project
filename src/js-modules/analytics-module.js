@@ -53,14 +53,15 @@ class Statistics {
         const wday = weekDaysList[`${date.getDay()}`].toLowerCase();
   
         document.querySelector(`.day-${i}`).textContent = `${day}, ${wday}`;
+        const diagrammBar = document.querySelector(`.bar-${i}`);
   
         if (day in articlesPerDay) {
           const widthOfPercent = (articlesPerDay[`${day}`]);
   
-          document.querySelector(`.bar-${i}`).style.width = `${widthOfPercent}%`;
-          document.querySelector(`.bar-${i}`).textContent = `${articlesPerDay[`${day}`]}`;
+          diagrammBar.style.width = `${widthOfPercent}%`;
+          diagrammBar.textContent = `${articlesPerDay[`${day}`]}`;
         } else {
-          document.querySelector(`.bar-${i}`).style.width = '0';
+          diagrammBar.style.width = '0';
         }
       }
     }
