@@ -1,0 +1,21 @@
+.slider-card__article {
+    width: 88%;
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1A1B22
+}
+
+
+@media screen and (max-width: 1210px) {
+    .slider-card__article {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .slider-card__article {
+        margin-top: 30px;
+    }
+}

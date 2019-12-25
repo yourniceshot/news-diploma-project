@@ -13,15 +13,33 @@ import { dateTo } from './time-module.js';
 import { dateFrom } from './time-module.js';
 export const newsList = document.querySelector('.cards-container__grid');
 export const showMoreBtn = document.querySelector('.cards-container__button');
+const formBtn = document.querySelector('.form__button');
 
 form.reset();
+
+function formLoading(isLoading) {
+    if(isLoading == true) {
+        formInput.setAttribute("readonly", "readonly");
+        formBtn.setAttribute('disabled', true);
+    } else {
+        formInput.removeAttribute("readonly");
+        formBtn.removeAttribute('disabled');
+    }
+}
+
+function cardsRemoving(){
+    while (newsList.firstChild) {
+        newsList.removeChild(newsList.firstChild);
+    }
+}
 
 form.addEventListener('submit', function(event){
     event.preventDefault();
     renderLoading(true);
+    formLoading(true);
+    cardsRemoving();
     cardBlock.style.display = "flex";
     cardListTitle.style.display = "flex";
-    newsList.innerHTML = '';
     noResultBlock.style.display = "none";
     errorMessage.style.display = "none";
     linkToAnalytics.style.display = "none";
@@ -58,6 +76,7 @@ form.addEventListener('submit', function(event){
     })
     .finally(() => {
         renderLoading(false);
+        formLoading(false);
     });
 
     api.newsSearchingWhole(formInput.value, dateFrom.toISOString(), dateTo.toISOString()) 

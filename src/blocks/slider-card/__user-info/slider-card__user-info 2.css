@@ -1,0 +1,6 @@
+.slider-card__user-info {
+    width: 196px;
+    height: 54px;
+    display: flex;
+    flex-direction: column;
+}
